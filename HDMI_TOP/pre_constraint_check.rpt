@@ -1,0 +1,34 @@
+# Written on 09/11/2024   22:01:32
+
+##### INFO ########################################################
+
+Current device : PGL50H-6FBG484
+Top Module : ad_da_hdmi_top
+Constraint File(s) : D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc
+
+##### SUMMARY ############################################################
+
+Found 0 error(s), 17 critical_warning(s), 0 warning(s).
+
+##### DETAILS ############################################################
+
+
+
+C: ConstraintEditor-2002: "IO Table" row:1 | Port da_data_out[7] has been placed at location AB13, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:2 | Port da_data_out[6] has been placed at location Y13, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:17 | Port vout_data[23] has been placed at location H19, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:18 | Port vout_data[22] has been placed at location H22, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:19 | Port vout_data[21] has been placed at location H21, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:24 | Port vout_data[16] has been placed at location K17, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:25 | Port vout_data[15] has been placed at location L17, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:26 | Port vout_data[14] has been placed at location K20, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:27 | Port vout_data[13] has been placed at location L19, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:32 | Port vout_data[8] has been placed at location M21, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:35 | Port vout_data[5] has been placed at location R22, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:36 | Port vout_data[4] has been placed at location R20, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:38 | Port vout_data[2] has been placed at location T21, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:56 | Port vout_clk has been placed at location M22, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:65 | Port key_6_ad_clk has been placed at location J19, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:66 | Port key_7_hor has been placed at location H20, whose type is share pin.
+C: ConstraintEditor-2002: "IO Table" row:67 | Port rst_n has been placed at location K18, whose type is share pin.
+

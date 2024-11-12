@@ -1,0 +1,1494 @@
+##### Written on 2024/11/06 16:30:14 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-6FBG484
+
+Top Module : 
+	ad9708_sin_wave
+
+Constraint File(s) : 
+	D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc
+
+##### SUMMARY ######################################################
+
+Found 356 error(s), 1 critical warning(s), 20 warning(s), out of 360 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+define_attribute {p:da_data_out[7]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 1)] Object 'p:da_data_out[7]' can not be found in current view.
+
+define_attribute {p:da_data_out[7]} {PAP_IO_LOC} {AB13}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 2)] Object 'p:da_data_out[7]' can not be found in current view.
+
+define_attribute {p:da_data_out[7]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 3)] Object 'p:da_data_out[7]' can not be found in current view.
+
+define_attribute {p:da_data_out[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 4)] Object 'p:da_data_out[7]' can not be found in current view.
+
+define_attribute {p:da_data_out[7]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 5)] Object 'p:da_data_out[7]' can not be found in current view.
+
+define_attribute {p:da_data_out[7]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 6)] Object 'p:da_data_out[7]' can not be found in current view.
+
+define_attribute {p:da_data_out[7]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 7)] Object 'p:da_data_out[7]' can not be found in current view.
+
+define_attribute {p:da_data_out[6]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 8)] Object 'p:da_data_out[6]' can not be found in current view.
+
+define_attribute {p:da_data_out[6]} {PAP_IO_LOC} {Y13}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 9)] Object 'p:da_data_out[6]' can not be found in current view.
+
+define_attribute {p:da_data_out[6]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 10)] Object 'p:da_data_out[6]' can not be found in current view.
+
+define_attribute {p:da_data_out[6]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 11)] Object 'p:da_data_out[6]' can not be found in current view.
+
+define_attribute {p:da_data_out[6]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 12)] Object 'p:da_data_out[6]' can not be found in current view.
+
+define_attribute {p:da_data_out[6]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 13)] Object 'p:da_data_out[6]' can not be found in current view.
+
+define_attribute {p:da_data_out[6]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 14)] Object 'p:da_data_out[6]' can not be found in current view.
+
+define_attribute {p:da_data_out[5]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 15)] Object 'p:da_data_out[5]' can not be found in current view.
+
+define_attribute {p:da_data_out[5]} {PAP_IO_LOC} {AB11}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 16)] Object 'p:da_data_out[5]' can not be found in current view.
+
+define_attribute {p:da_data_out[5]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 17)] Object 'p:da_data_out[5]' can not be found in current view.
+
+define_attribute {p:da_data_out[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 18)] Object 'p:da_data_out[5]' can not be found in current view.
+
+define_attribute {p:da_data_out[5]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 19)] Object 'p:da_data_out[5]' can not be found in current view.
+
+define_attribute {p:da_data_out[5]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 20)] Object 'p:da_data_out[5]' can not be found in current view.
+
+define_attribute {p:da_data_out[5]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 21)] Object 'p:da_data_out[5]' can not be found in current view.
+
+define_attribute {p:da_data_out[4]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 22)] Object 'p:da_data_out[4]' can not be found in current view.
+
+define_attribute {p:da_data_out[4]} {PAP_IO_LOC} {Y11}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 23)] Object 'p:da_data_out[4]' can not be found in current view.
+
+define_attribute {p:da_data_out[4]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 24)] Object 'p:da_data_out[4]' can not be found in current view.
+
+define_attribute {p:da_data_out[4]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 25)] Object 'p:da_data_out[4]' can not be found in current view.
+
+define_attribute {p:da_data_out[4]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 26)] Object 'p:da_data_out[4]' can not be found in current view.
+
+define_attribute {p:da_data_out[4]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 27)] Object 'p:da_data_out[4]' can not be found in current view.
+
+define_attribute {p:da_data_out[4]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 28)] Object 'p:da_data_out[4]' can not be found in current view.
+
+define_attribute {p:da_data_out[3]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 29)] Object 'p:da_data_out[3]' can not be found in current view.
+
+define_attribute {p:da_data_out[3]} {PAP_IO_LOC} {W11}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 30)] Object 'p:da_data_out[3]' can not be found in current view.
+
+define_attribute {p:da_data_out[3]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 31)] Object 'p:da_data_out[3]' can not be found in current view.
+
+define_attribute {p:da_data_out[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 32)] Object 'p:da_data_out[3]' can not be found in current view.
+
+define_attribute {p:da_data_out[3]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 33)] Object 'p:da_data_out[3]' can not be found in current view.
+
+define_attribute {p:da_data_out[3]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 34)] Object 'p:da_data_out[3]' can not be found in current view.
+
+define_attribute {p:da_data_out[3]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 35)] Object 'p:da_data_out[3]' can not be found in current view.
+
+define_attribute {p:da_data_out[2]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 36)] Object 'p:da_data_out[2]' can not be found in current view.
+
+define_attribute {p:da_data_out[2]} {PAP_IO_LOC} {V11}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 37)] Object 'p:da_data_out[2]' can not be found in current view.
+
+define_attribute {p:da_data_out[2]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 38)] Object 'p:da_data_out[2]' can not be found in current view.
+
+define_attribute {p:da_data_out[2]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 39)] Object 'p:da_data_out[2]' can not be found in current view.
+
+define_attribute {p:da_data_out[2]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 40)] Object 'p:da_data_out[2]' can not be found in current view.
+
+define_attribute {p:da_data_out[2]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 41)] Object 'p:da_data_out[2]' can not be found in current view.
+
+define_attribute {p:da_data_out[2]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 42)] Object 'p:da_data_out[2]' can not be found in current view.
+
+define_attribute {p:da_data_out[1]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 43)] Object 'p:da_data_out[1]' can not be found in current view.
+
+define_attribute {p:da_data_out[1]} {PAP_IO_LOC} {AB10}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 44)] Object 'p:da_data_out[1]' can not be found in current view.
+
+define_attribute {p:da_data_out[1]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 45)] Object 'p:da_data_out[1]' can not be found in current view.
+
+define_attribute {p:da_data_out[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 46)] Object 'p:da_data_out[1]' can not be found in current view.
+
+define_attribute {p:da_data_out[1]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 47)] Object 'p:da_data_out[1]' can not be found in current view.
+
+define_attribute {p:da_data_out[1]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 48)] Object 'p:da_data_out[1]' can not be found in current view.
+
+define_attribute {p:da_data_out[1]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 49)] Object 'p:da_data_out[1]' can not be found in current view.
+
+define_attribute {p:da_data_out[0]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 50)] Object 'p:da_data_out[0]' can not be found in current view.
+
+define_attribute {p:da_data_out[0]} {PAP_IO_LOC} {AA10}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 51)] Object 'p:da_data_out[0]' can not be found in current view.
+
+define_attribute {p:da_data_out[0]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 52)] Object 'p:da_data_out[0]' can not be found in current view.
+
+define_attribute {p:da_data_out[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 53)] Object 'p:da_data_out[0]' can not be found in current view.
+
+define_attribute {p:da_data_out[0]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 54)] Object 'p:da_data_out[0]' can not be found in current view.
+
+define_attribute {p:da_data_out[0]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 55)] Object 'p:da_data_out[0]' can not be found in current view.
+
+define_attribute {p:da_data_out[0]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 56)] Object 'p:da_data_out[0]' can not be found in current view.
+
+define_attribute {p:vout_data[23]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 57)] Object 'p:vout_data[23]' can not be found in current view.
+
+define_attribute {p:vout_data[23]} {PAP_IO_LOC} {H19}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 58)] Object 'p:vout_data[23]' can not be found in current view.
+
+define_attribute {p:vout_data[23]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 59)] Object 'p:vout_data[23]' can not be found in current view.
+
+define_attribute {p:vout_data[23]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 60)] Object 'p:vout_data[23]' can not be found in current view.
+
+define_attribute {p:vout_data[23]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 61)] Object 'p:vout_data[23]' can not be found in current view.
+
+define_attribute {p:vout_data[23]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 62)] Object 'p:vout_data[23]' can not be found in current view.
+
+define_attribute {p:vout_data[23]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 63)] Object 'p:vout_data[23]' can not be found in current view.
+
+define_attribute {p:vout_data[22]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 64)] Object 'p:vout_data[22]' can not be found in current view.
+
+define_attribute {p:vout_data[22]} {PAP_IO_LOC} {H22}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 65)] Object 'p:vout_data[22]' can not be found in current view.
+
+define_attribute {p:vout_data[22]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 66)] Object 'p:vout_data[22]' can not be found in current view.
+
+define_attribute {p:vout_data[22]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 67)] Object 'p:vout_data[22]' can not be found in current view.
+
+define_attribute {p:vout_data[22]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 68)] Object 'p:vout_data[22]' can not be found in current view.
+
+define_attribute {p:vout_data[22]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 69)] Object 'p:vout_data[22]' can not be found in current view.
+
+define_attribute {p:vout_data[22]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 70)] Object 'p:vout_data[22]' can not be found in current view.
+
+define_attribute {p:vout_data[21]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 71)] Object 'p:vout_data[21]' can not be found in current view.
+
+define_attribute {p:vout_data[21]} {PAP_IO_LOC} {H21}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 72)] Object 'p:vout_data[21]' can not be found in current view.
+
+define_attribute {p:vout_data[21]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 73)] Object 'p:vout_data[21]' can not be found in current view.
+
+define_attribute {p:vout_data[21]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 74)] Object 'p:vout_data[21]' can not be found in current view.
+
+define_attribute {p:vout_data[21]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 75)] Object 'p:vout_data[21]' can not be found in current view.
+
+define_attribute {p:vout_data[21]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 76)] Object 'p:vout_data[21]' can not be found in current view.
+
+define_attribute {p:vout_data[21]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 77)] Object 'p:vout_data[21]' can not be found in current view.
+
+define_attribute {p:vout_data[20]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 78)] Object 'p:vout_data[20]' can not be found in current view.
+
+define_attribute {p:vout_data[20]} {PAP_IO_LOC} {K22}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 79)] Object 'p:vout_data[20]' can not be found in current view.
+
+define_attribute {p:vout_data[20]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 80)] Object 'p:vout_data[20]' can not be found in current view.
+
+define_attribute {p:vout_data[20]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 81)] Object 'p:vout_data[20]' can not be found in current view.
+
+define_attribute {p:vout_data[20]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 82)] Object 'p:vout_data[20]' can not be found in current view.
+
+define_attribute {p:vout_data[20]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 83)] Object 'p:vout_data[20]' can not be found in current view.
+
+define_attribute {p:vout_data[20]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 84)] Object 'p:vout_data[20]' can not be found in current view.
+
+define_attribute {p:vout_data[19]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 85)] Object 'p:vout_data[19]' can not be found in current view.
+
+define_attribute {p:vout_data[19]} {PAP_IO_LOC} {J20}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 86)] Object 'p:vout_data[19]' can not be found in current view.
+
+define_attribute {p:vout_data[19]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 87)] Object 'p:vout_data[19]' can not be found in current view.
+
+define_attribute {p:vout_data[19]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 88)] Object 'p:vout_data[19]' can not be found in current view.
+
+define_attribute {p:vout_data[19]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 89)] Object 'p:vout_data[19]' can not be found in current view.
+
+define_attribute {p:vout_data[19]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 90)] Object 'p:vout_data[19]' can not be found in current view.
+
+define_attribute {p:vout_data[19]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 91)] Object 'p:vout_data[19]' can not be found in current view.
+
+define_attribute {p:vout_data[18]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 92)] Object 'p:vout_data[18]' can not be found in current view.
+
+define_attribute {p:vout_data[18]} {PAP_IO_LOC} {J22}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 93)] Object 'p:vout_data[18]' can not be found in current view.
+
+define_attribute {p:vout_data[18]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 94)] Object 'p:vout_data[18]' can not be found in current view.
+
+define_attribute {p:vout_data[18]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 95)] Object 'p:vout_data[18]' can not be found in current view.
+
+define_attribute {p:vout_data[18]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 96)] Object 'p:vout_data[18]' can not be found in current view.
+
+define_attribute {p:vout_data[18]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 97)] Object 'p:vout_data[18]' can not be found in current view.
+
+define_attribute {p:vout_data[18]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 98)] Object 'p:vout_data[18]' can not be found in current view.
+
+define_attribute {p:vout_data[17]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 99)] Object 'p:vout_data[17]' can not be found in current view.
+
+define_attribute {p:vout_data[17]} {PAP_IO_LOC} {N19}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 100)] Object 'p:vout_data[17]' can not be found in current view.
+
+define_attribute {p:vout_data[17]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 101)] Object 'p:vout_data[17]' can not be found in current view.
+
+define_attribute {p:vout_data[17]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 102)] Object 'p:vout_data[17]' can not be found in current view.
+
+define_attribute {p:vout_data[17]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 103)] Object 'p:vout_data[17]' can not be found in current view.
+
+define_attribute {p:vout_data[17]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 104)] Object 'p:vout_data[17]' can not be found in current view.
+
+define_attribute {p:vout_data[17]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 105)] Object 'p:vout_data[17]' can not be found in current view.
+
+define_attribute {p:vout_data[16]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 106)] Object 'p:vout_data[16]' can not be found in current view.
+
+define_attribute {p:vout_data[16]} {PAP_IO_LOC} {K17}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 107)] Object 'p:vout_data[16]' can not be found in current view.
+
+define_attribute {p:vout_data[16]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 108)] Object 'p:vout_data[16]' can not be found in current view.
+
+define_attribute {p:vout_data[16]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 109)] Object 'p:vout_data[16]' can not be found in current view.
+
+define_attribute {p:vout_data[16]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 110)] Object 'p:vout_data[16]' can not be found in current view.
+
+define_attribute {p:vout_data[16]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 111)] Object 'p:vout_data[16]' can not be found in current view.
+
+define_attribute {p:vout_data[16]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 112)] Object 'p:vout_data[16]' can not be found in current view.
+
+define_attribute {p:vout_data[15]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 113)] Object 'p:vout_data[15]' can not be found in current view.
+
+define_attribute {p:vout_data[15]} {PAP_IO_LOC} {L17}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 114)] Object 'p:vout_data[15]' can not be found in current view.
+
+define_attribute {p:vout_data[15]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 115)] Object 'p:vout_data[15]' can not be found in current view.
+
+define_attribute {p:vout_data[15]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 116)] Object 'p:vout_data[15]' can not be found in current view.
+
+define_attribute {p:vout_data[15]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 117)] Object 'p:vout_data[15]' can not be found in current view.
+
+define_attribute {p:vout_data[15]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 118)] Object 'p:vout_data[15]' can not be found in current view.
+
+define_attribute {p:vout_data[15]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 119)] Object 'p:vout_data[15]' can not be found in current view.
+
+define_attribute {p:vout_data[14]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 120)] Object 'p:vout_data[14]' can not be found in current view.
+
+define_attribute {p:vout_data[14]} {PAP_IO_LOC} {K20}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 121)] Object 'p:vout_data[14]' can not be found in current view.
+
+define_attribute {p:vout_data[14]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 122)] Object 'p:vout_data[14]' can not be found in current view.
+
+define_attribute {p:vout_data[14]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 123)] Object 'p:vout_data[14]' can not be found in current view.
+
+define_attribute {p:vout_data[14]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 124)] Object 'p:vout_data[14]' can not be found in current view.
+
+define_attribute {p:vout_data[14]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 125)] Object 'p:vout_data[14]' can not be found in current view.
+
+define_attribute {p:vout_data[14]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 126)] Object 'p:vout_data[14]' can not be found in current view.
+
+define_attribute {p:vout_data[13]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 127)] Object 'p:vout_data[13]' can not be found in current view.
+
+define_attribute {p:vout_data[13]} {PAP_IO_LOC} {L19}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 128)] Object 'p:vout_data[13]' can not be found in current view.
+
+define_attribute {p:vout_data[13]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 129)] Object 'p:vout_data[13]' can not be found in current view.
+
+define_attribute {p:vout_data[13]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 130)] Object 'p:vout_data[13]' can not be found in current view.
+
+define_attribute {p:vout_data[13]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 131)] Object 'p:vout_data[13]' can not be found in current view.
+
+define_attribute {p:vout_data[13]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 132)] Object 'p:vout_data[13]' can not be found in current view.
+
+define_attribute {p:vout_data[13]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 133)] Object 'p:vout_data[13]' can not be found in current view.
+
+define_attribute {p:vout_data[12]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 134)] Object 'p:vout_data[12]' can not be found in current view.
+
+define_attribute {p:vout_data[12]} {PAP_IO_LOC} {N15}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 135)] Object 'p:vout_data[12]' can not be found in current view.
+
+define_attribute {p:vout_data[12]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 136)] Object 'p:vout_data[12]' can not be found in current view.
+
+define_attribute {p:vout_data[12]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 137)] Object 'p:vout_data[12]' can not be found in current view.
+
+define_attribute {p:vout_data[12]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 138)] Object 'p:vout_data[12]' can not be found in current view.
+
+define_attribute {p:vout_data[12]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 139)] Object 'p:vout_data[12]' can not be found in current view.
+
+define_attribute {p:vout_data[12]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 140)] Object 'p:vout_data[12]' can not be found in current view.
+
+define_attribute {p:vout_data[11]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 141)] Object 'p:vout_data[11]' can not be found in current view.
+
+define_attribute {p:vout_data[11]} {PAP_IO_LOC} {M16}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 142)] Object 'p:vout_data[11]' can not be found in current view.
+
+define_attribute {p:vout_data[11]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 143)] Object 'p:vout_data[11]' can not be found in current view.
+
+define_attribute {p:vout_data[11]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 144)] Object 'p:vout_data[11]' can not be found in current view.
+
+define_attribute {p:vout_data[11]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 145)] Object 'p:vout_data[11]' can not be found in current view.
+
+define_attribute {p:vout_data[11]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 146)] Object 'p:vout_data[11]' can not be found in current view.
+
+define_attribute {p:vout_data[11]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 147)] Object 'p:vout_data[11]' can not be found in current view.
+
+define_attribute {p:vout_data[10]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 148)] Object 'p:vout_data[10]' can not be found in current view.
+
+define_attribute {p:vout_data[10]} {PAP_IO_LOC} {M18}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 149)] Object 'p:vout_data[10]' can not be found in current view.
+
+define_attribute {p:vout_data[10]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 150)] Object 'p:vout_data[10]' can not be found in current view.
+
+define_attribute {p:vout_data[10]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 151)] Object 'p:vout_data[10]' can not be found in current view.
+
+define_attribute {p:vout_data[10]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 152)] Object 'p:vout_data[10]' can not be found in current view.
+
+define_attribute {p:vout_data[10]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 153)] Object 'p:vout_data[10]' can not be found in current view.
+
+define_attribute {p:vout_data[10]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 154)] Object 'p:vout_data[10]' can not be found in current view.
+
+define_attribute {p:vout_data[9]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 155)] Object 'p:vout_data[9]' can not be found in current view.
+
+define_attribute {p:vout_data[9]} {PAP_IO_LOC} {M17}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 156)] Object 'p:vout_data[9]' can not be found in current view.
+
+define_attribute {p:vout_data[9]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 157)] Object 'p:vout_data[9]' can not be found in current view.
+
+define_attribute {p:vout_data[9]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 158)] Object 'p:vout_data[9]' can not be found in current view.
+
+define_attribute {p:vout_data[9]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 159)] Object 'p:vout_data[9]' can not be found in current view.
+
+define_attribute {p:vout_data[9]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 160)] Object 'p:vout_data[9]' can not be found in current view.
+
+define_attribute {p:vout_data[9]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 161)] Object 'p:vout_data[9]' can not be found in current view.
+
+define_attribute {p:vout_data[8]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 162)] Object 'p:vout_data[8]' can not be found in current view.
+
+define_attribute {p:vout_data[8]} {PAP_IO_LOC} {M21}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 163)] Object 'p:vout_data[8]' can not be found in current view.
+
+define_attribute {p:vout_data[8]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 164)] Object 'p:vout_data[8]' can not be found in current view.
+
+define_attribute {p:vout_data[8]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 165)] Object 'p:vout_data[8]' can not be found in current view.
+
+define_attribute {p:vout_data[8]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 166)] Object 'p:vout_data[8]' can not be found in current view.
+
+define_attribute {p:vout_data[8]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 167)] Object 'p:vout_data[8]' can not be found in current view.
+
+define_attribute {p:vout_data[8]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 168)] Object 'p:vout_data[8]' can not be found in current view.
+
+define_attribute {p:vout_data[7]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 169)] Object 'p:vout_data[7]' can not be found in current view.
+
+define_attribute {p:vout_data[7]} {PAP_IO_LOC} {P19}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 170)] Object 'p:vout_data[7]' can not be found in current view.
+
+define_attribute {p:vout_data[7]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 171)] Object 'p:vout_data[7]' can not be found in current view.
+
+define_attribute {p:vout_data[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 172)] Object 'p:vout_data[7]' can not be found in current view.
+
+define_attribute {p:vout_data[7]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 173)] Object 'p:vout_data[7]' can not be found in current view.
+
+define_attribute {p:vout_data[7]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 174)] Object 'p:vout_data[7]' can not be found in current view.
+
+define_attribute {p:vout_data[7]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 175)] Object 'p:vout_data[7]' can not be found in current view.
+
+define_attribute {p:vout_data[6]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 176)] Object 'p:vout_data[6]' can not be found in current view.
+
+define_attribute {p:vout_data[6]} {PAP_IO_LOC} {R19}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 177)] Object 'p:vout_data[6]' can not be found in current view.
+
+define_attribute {p:vout_data[6]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 178)] Object 'p:vout_data[6]' can not be found in current view.
+
+define_attribute {p:vout_data[6]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 179)] Object 'p:vout_data[6]' can not be found in current view.
+
+define_attribute {p:vout_data[6]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 180)] Object 'p:vout_data[6]' can not be found in current view.
+
+define_attribute {p:vout_data[6]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 181)] Object 'p:vout_data[6]' can not be found in current view.
+
+define_attribute {p:vout_data[6]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 182)] Object 'p:vout_data[6]' can not be found in current view.
+
+define_attribute {p:vout_data[5]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 183)] Object 'p:vout_data[5]' can not be found in current view.
+
+define_attribute {p:vout_data[5]} {PAP_IO_LOC} {R22}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 184)] Object 'p:vout_data[5]' can not be found in current view.
+
+define_attribute {p:vout_data[5]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 185)] Object 'p:vout_data[5]' can not be found in current view.
+
+define_attribute {p:vout_data[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 186)] Object 'p:vout_data[5]' can not be found in current view.
+
+define_attribute {p:vout_data[5]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 187)] Object 'p:vout_data[5]' can not be found in current view.
+
+define_attribute {p:vout_data[5]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 188)] Object 'p:vout_data[5]' can not be found in current view.
+
+define_attribute {p:vout_data[5]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 189)] Object 'p:vout_data[5]' can not be found in current view.
+
+define_attribute {p:vout_data[4]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 190)] Object 'p:vout_data[4]' can not be found in current view.
+
+define_attribute {p:vout_data[4]} {PAP_IO_LOC} {R20}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 191)] Object 'p:vout_data[4]' can not be found in current view.
+
+define_attribute {p:vout_data[4]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 192)] Object 'p:vout_data[4]' can not be found in current view.
+
+define_attribute {p:vout_data[4]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 193)] Object 'p:vout_data[4]' can not be found in current view.
+
+define_attribute {p:vout_data[4]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 194)] Object 'p:vout_data[4]' can not be found in current view.
+
+define_attribute {p:vout_data[4]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 195)] Object 'p:vout_data[4]' can not be found in current view.
+
+define_attribute {p:vout_data[4]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 196)] Object 'p:vout_data[4]' can not be found in current view.
+
+define_attribute {p:vout_data[3]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 197)] Object 'p:vout_data[3]' can not be found in current view.
+
+define_attribute {p:vout_data[3]} {PAP_IO_LOC} {T22}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 198)] Object 'p:vout_data[3]' can not be found in current view.
+
+define_attribute {p:vout_data[3]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 199)] Object 'p:vout_data[3]' can not be found in current view.
+
+define_attribute {p:vout_data[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 200)] Object 'p:vout_data[3]' can not be found in current view.
+
+define_attribute {p:vout_data[3]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 201)] Object 'p:vout_data[3]' can not be found in current view.
+
+define_attribute {p:vout_data[3]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 202)] Object 'p:vout_data[3]' can not be found in current view.
+
+define_attribute {p:vout_data[3]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 203)] Object 'p:vout_data[3]' can not be found in current view.
+
+define_attribute {p:vout_data[2]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 204)] Object 'p:vout_data[2]' can not be found in current view.
+
+define_attribute {p:vout_data[2]} {PAP_IO_LOC} {T21}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 205)] Object 'p:vout_data[2]' can not be found in current view.
+
+define_attribute {p:vout_data[2]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 206)] Object 'p:vout_data[2]' can not be found in current view.
+
+define_attribute {p:vout_data[2]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 207)] Object 'p:vout_data[2]' can not be found in current view.
+
+define_attribute {p:vout_data[2]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 208)] Object 'p:vout_data[2]' can not be found in current view.
+
+define_attribute {p:vout_data[2]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 209)] Object 'p:vout_data[2]' can not be found in current view.
+
+define_attribute {p:vout_data[2]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 210)] Object 'p:vout_data[2]' can not be found in current view.
+
+define_attribute {p:vout_data[1]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 211)] Object 'p:vout_data[1]' can not be found in current view.
+
+define_attribute {p:vout_data[1]} {PAP_IO_LOC} {V22}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 212)] Object 'p:vout_data[1]' can not be found in current view.
+
+define_attribute {p:vout_data[1]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 213)] Object 'p:vout_data[1]' can not be found in current view.
+
+define_attribute {p:vout_data[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 214)] Object 'p:vout_data[1]' can not be found in current view.
+
+define_attribute {p:vout_data[1]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 215)] Object 'p:vout_data[1]' can not be found in current view.
+
+define_attribute {p:vout_data[1]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 216)] Object 'p:vout_data[1]' can not be found in current view.
+
+define_attribute {p:vout_data[1]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 217)] Object 'p:vout_data[1]' can not be found in current view.
+
+define_attribute {p:vout_data[0]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 218)] Object 'p:vout_data[0]' can not be found in current view.
+
+define_attribute {p:vout_data[0]} {PAP_IO_LOC} {V21}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 219)] Object 'p:vout_data[0]' can not be found in current view.
+
+define_attribute {p:vout_data[0]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 220)] Object 'p:vout_data[0]' can not be found in current view.
+
+define_attribute {p:vout_data[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 221)] Object 'p:vout_data[0]' can not be found in current view.
+
+define_attribute {p:vout_data[0]} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 222)] Object 'p:vout_data[0]' can not be found in current view.
+
+define_attribute {p:vout_data[0]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 223)] Object 'p:vout_data[0]' can not be found in current view.
+
+define_attribute {p:vout_data[0]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 224)] Object 'p:vout_data[0]' can not be found in current view.
+
+define_attribute {p:ad_data_in[7]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 225)] Object 'p:ad_data_in[7]' can not be found in current view.
+
+define_attribute {p:ad_data_in[7]} {PAP_IO_LOC} {T10}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 226)] Object 'p:ad_data_in[7]' can not be found in current view.
+
+define_attribute {p:ad_data_in[7]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 227)] Object 'p:ad_data_in[7]' can not be found in current view.
+
+define_attribute {p:ad_data_in[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 228)] Object 'p:ad_data_in[7]' can not be found in current view.
+
+define_attribute {p:ad_data_in[7]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 229)] Object 'p:ad_data_in[7]' can not be found in current view.
+
+define_attribute {p:ad_data_in[6]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 230)] Object 'p:ad_data_in[6]' can not be found in current view.
+
+define_attribute {p:ad_data_in[6]} {PAP_IO_LOC} {U10}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 231)] Object 'p:ad_data_in[6]' can not be found in current view.
+
+define_attribute {p:ad_data_in[6]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 232)] Object 'p:ad_data_in[6]' can not be found in current view.
+
+define_attribute {p:ad_data_in[6]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 233)] Object 'p:ad_data_in[6]' can not be found in current view.
+
+define_attribute {p:ad_data_in[6]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 234)] Object 'p:ad_data_in[6]' can not be found in current view.
+
+define_attribute {p:ad_data_in[5]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 235)] Object 'p:ad_data_in[5]' can not be found in current view.
+
+define_attribute {p:ad_data_in[5]} {PAP_IO_LOC} {T12}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 236)] Object 'p:ad_data_in[5]' can not be found in current view.
+
+define_attribute {p:ad_data_in[5]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 237)] Object 'p:ad_data_in[5]' can not be found in current view.
+
+define_attribute {p:ad_data_in[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 238)] Object 'p:ad_data_in[5]' can not be found in current view.
+
+define_attribute {p:ad_data_in[5]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 239)] Object 'p:ad_data_in[5]' can not be found in current view.
+
+define_attribute {p:ad_data_in[4]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 240)] Object 'p:ad_data_in[4]' can not be found in current view.
+
+define_attribute {p:ad_data_in[4]} {PAP_IO_LOC} {U12}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 241)] Object 'p:ad_data_in[4]' can not be found in current view.
+
+define_attribute {p:ad_data_in[4]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 242)] Object 'p:ad_data_in[4]' can not be found in current view.
+
+define_attribute {p:ad_data_in[4]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 243)] Object 'p:ad_data_in[4]' can not be found in current view.
+
+define_attribute {p:ad_data_in[4]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 244)] Object 'p:ad_data_in[4]' can not be found in current view.
+
+define_attribute {p:ad_data_in[3]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 245)] Object 'p:ad_data_in[3]' can not be found in current view.
+
+define_attribute {p:ad_data_in[3]} {PAP_IO_LOC} {W12}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 246)] Object 'p:ad_data_in[3]' can not be found in current view.
+
+define_attribute {p:ad_data_in[3]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 247)] Object 'p:ad_data_in[3]' can not be found in current view.
+
+define_attribute {p:ad_data_in[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 248)] Object 'p:ad_data_in[3]' can not be found in current view.
+
+define_attribute {p:ad_data_in[3]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 249)] Object 'p:ad_data_in[3]' can not be found in current view.
+
+define_attribute {p:ad_data_in[2]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 250)] Object 'p:ad_data_in[2]' can not be found in current view.
+
+define_attribute {p:ad_data_in[2]} {PAP_IO_LOC} {Y12}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 251)] Object 'p:ad_data_in[2]' can not be found in current view.
+
+define_attribute {p:ad_data_in[2]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 252)] Object 'p:ad_data_in[2]' can not be found in current view.
+
+define_attribute {p:ad_data_in[2]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 253)] Object 'p:ad_data_in[2]' can not be found in current view.
+
+define_attribute {p:ad_data_in[2]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 254)] Object 'p:ad_data_in[2]' can not be found in current view.
+
+define_attribute {p:ad_data_in[1]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 255)] Object 'p:ad_data_in[1]' can not be found in current view.
+
+define_attribute {p:ad_data_in[1]} {PAP_IO_LOC} {R11}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 256)] Object 'p:ad_data_in[1]' can not be found in current view.
+
+define_attribute {p:ad_data_in[1]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 257)] Object 'p:ad_data_in[1]' can not be found in current view.
+
+define_attribute {p:ad_data_in[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 258)] Object 'p:ad_data_in[1]' can not be found in current view.
+
+define_attribute {p:ad_data_in[1]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 259)] Object 'p:ad_data_in[1]' can not be found in current view.
+
+define_attribute {p:ad_data_in[0]} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 260)] Object 'p:ad_data_in[0]' can not be found in current view.
+
+define_attribute {p:ad_data_in[0]} {PAP_IO_LOC} {T11}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 261)] Object 'p:ad_data_in[0]' can not be found in current view.
+
+define_attribute {p:ad_data_in[0]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 262)] Object 'p:ad_data_in[0]' can not be found in current view.
+
+define_attribute {p:ad_data_in[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 263)] Object 'p:ad_data_in[0]' can not be found in current view.
+
+define_attribute {p:ad_data_in[0]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 264)] Object 'p:ad_data_in[0]' can not be found in current view.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_DIRECTION} {INOUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 265)] Object 'p:iic_tx_sda' can not be found in current view.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_LOC} {P18}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 266)] Object 'p:iic_tx_sda' can not be found in current view.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 267)] Object 'p:iic_tx_sda' can not be found in current view.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 268)] Object 'p:iic_tx_sda' can not be found in current view.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 269)] Object 'p:iic_tx_sda' can not be found in current view.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 270)] Object 'p:iic_tx_sda' can not be found in current view.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 271)] Object 'p:iic_tx_sda' can not be found in current view.
+
+define_attribute {p:ad_clk} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 272)] Object 'p:ad_clk' can not be found in current view.
+
+define_attribute {p:ad_clk} {PAP_IO_LOC} {Y10}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 273)] Object 'p:ad_clk' can not be found in current view.
+
+define_attribute {p:ad_clk} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 274)] Object 'p:ad_clk' can not be found in current view.
+
+define_attribute {p:ad_clk} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 275)] Object 'p:ad_clk' can not be found in current view.
+
+define_attribute {p:ad_clk} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 276)] Object 'p:ad_clk' can not be found in current view.
+
+define_attribute {p:ad_clk} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 277)] Object 'p:ad_clk' can not be found in current view.
+
+define_attribute {p:ad_clk} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 278)] Object 'p:ad_clk' can not be found in current view.
+
+define_attribute {p:da_clk} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 279)] Object 'p:da_clk' can not be found in current view.
+
+define_attribute {p:da_clk} {PAP_IO_LOC} {W10}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 280)] Object 'p:da_clk' can not be found in current view.
+
+define_attribute {p:da_clk} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 281)] Object 'p:da_clk' can not be found in current view.
+
+define_attribute {p:da_clk} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 282)] Object 'p:da_clk' can not be found in current view.
+
+define_attribute {p:da_clk} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 283)] Object 'p:da_clk' can not be found in current view.
+
+define_attribute {p:da_clk} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 284)] Object 'p:da_clk' can not be found in current view.
+
+define_attribute {p:da_clk} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 285)] Object 'p:da_clk' can not be found in current view.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 286)] Object 'p:iic_tx_scl' can not be found in current view.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_LOC} {P17}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 287)] Object 'p:iic_tx_scl' can not be found in current view.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 288)] Object 'p:iic_tx_scl' can not be found in current view.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 289)] Object 'p:iic_tx_scl' can not be found in current view.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 290)] Object 'p:iic_tx_scl' can not be found in current view.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 291)] Object 'p:iic_tx_scl' can not be found in current view.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 292)] Object 'p:iic_tx_scl' can not be found in current view.
+
+define_attribute {p:led_int} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 293)] Object 'p:led_int' can not be found in current view.
+
+define_attribute {p:led_int} {PAP_IO_LOC} {B2}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 294)] Object 'p:led_int' can not be found in current view.
+
+define_attribute {p:led_int} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 295)] Object 'p:led_int' can not be found in current view.
+
+define_attribute {p:led_int} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 296)] Object 'p:led_int' can not be found in current view.
+
+define_attribute {p:led_int} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 297)] Object 'p:led_int' can not be found in current view.
+
+define_attribute {p:led_int} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 298)] Object 'p:led_int' can not be found in current view.
+
+define_attribute {p:led_int} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 299)] Object 'p:led_int' can not be found in current view.
+
+define_attribute {p:rstn_out} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 300)] Object 'p:rstn_out' can not be found in current view.
+
+define_attribute {p:rstn_out} {PAP_IO_LOC} {R17}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 301)] Object 'p:rstn_out' can not be found in current view.
+
+define_attribute {p:rstn_out} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 302)] Object 'p:rstn_out' can not be found in current view.
+
+define_attribute {p:rstn_out} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 303)] Object 'p:rstn_out' can not be found in current view.
+
+define_attribute {p:rstn_out} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 304)] Object 'p:rstn_out' can not be found in current view.
+
+define_attribute {p:rstn_out} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 305)] Object 'p:rstn_out' can not be found in current view.
+
+define_attribute {p:rstn_out} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 306)] Object 'p:rstn_out' can not be found in current view.
+
+define_attribute {p:vout_clk} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 307)] Object 'p:vout_clk' can not be found in current view.
+
+define_attribute {p:vout_clk} {PAP_IO_LOC} {M22}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 308)] Object 'p:vout_clk' can not be found in current view.
+
+define_attribute {p:vout_clk} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 309)] Object 'p:vout_clk' can not be found in current view.
+
+define_attribute {p:vout_clk} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 310)] Object 'p:vout_clk' can not be found in current view.
+
+define_attribute {p:vout_clk} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 311)] Object 'p:vout_clk' can not be found in current view.
+
+define_attribute {p:vout_clk} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 312)] Object 'p:vout_clk' can not be found in current view.
+
+define_attribute {p:vout_clk} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 313)] Object 'p:vout_clk' can not be found in current view.
+
+define_attribute {p:vout_de} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 314)] Object 'p:vout_de' can not be found in current view.
+
+define_attribute {p:vout_de} {PAP_IO_LOC} {Y22}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 315)] Object 'p:vout_de' can not be found in current view.
+
+define_attribute {p:vout_de} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 316)] Object 'p:vout_de' can not be found in current view.
+
+define_attribute {p:vout_de} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 317)] Object 'p:vout_de' can not be found in current view.
+
+define_attribute {p:vout_de} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 318)] Object 'p:vout_de' can not be found in current view.
+
+define_attribute {p:vout_de} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 319)] Object 'p:vout_de' can not be found in current view.
+
+define_attribute {p:vout_de} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 320)] Object 'p:vout_de' can not be found in current view.
+
+define_attribute {p:vout_hs} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 321)] Object 'p:vout_hs' can not be found in current view.
+
+define_attribute {p:vout_hs} {PAP_IO_LOC} {Y21}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 322)] Object 'p:vout_hs' can not be found in current view.
+
+define_attribute {p:vout_hs} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 323)] Object 'p:vout_hs' can not be found in current view.
+
+define_attribute {p:vout_hs} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 324)] Object 'p:vout_hs' can not be found in current view.
+
+define_attribute {p:vout_hs} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 325)] Object 'p:vout_hs' can not be found in current view.
+
+define_attribute {p:vout_hs} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 326)] Object 'p:vout_hs' can not be found in current view.
+
+define_attribute {p:vout_hs} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 327)] Object 'p:vout_hs' can not be found in current view.
+
+define_attribute {p:vout_vs} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 328)] Object 'p:vout_vs' can not be found in current view.
+
+define_attribute {p:vout_vs} {PAP_IO_LOC} {W20}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 329)] Object 'p:vout_vs' can not be found in current view.
+
+define_attribute {p:vout_vs} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 330)] Object 'p:vout_vs' can not be found in current view.
+
+define_attribute {p:vout_vs} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 331)] Object 'p:vout_vs' can not be found in current view.
+
+define_attribute {p:vout_vs} {PAP_IO_DRIVE} {8}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 332)] Object 'p:vout_vs' can not be found in current view.
+
+define_attribute {p:vout_vs} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 333)] Object 'p:vout_vs' can not be found in current view.
+
+define_attribute {p:vout_vs} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 334)] Object 'p:vout_vs' can not be found in current view.
+
+define_attribute {p:clk_50M} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 335)] Object 'p:clk_50M' can not be found in current view.
+
+define_attribute {p:clk_50M} {PAP_IO_LOC} {P20}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 336)] Object 'p:clk_50M' can not be found in current view.
+
+define_attribute {p:clk_50M} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 337)] Object 'p:clk_50M' can not be found in current view.
+
+define_attribute {p:clk_50M} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 338)] Object 'p:clk_50M' can not be found in current view.
+
+define_attribute {p:clk_50M} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 339)] Object 'p:clk_50M' can not be found in current view.
+
+define_attribute {p:key_1} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 355)] Object 'p:key_1' can not be found in current view.
+
+define_attribute {p:key_1} {PAP_IO_LOC} {L15}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 356)] Object 'p:key_1' can not be found in current view.
+
+define_attribute {p:key_1} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 357)] Object 'p:key_1' can not be found in current view.
+
+define_attribute {p:key_1} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 358)] Object 'p:key_1' can not be found in current view.
+
+define_attribute {p:key_1} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 359)] Object 'p:key_1' can not be found in current view.
+
+define_attribute {p:key_2} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 360)] Object 'p:key_2' can not be found in current view.
+
+define_attribute {p:key_2} {PAP_IO_LOC} {J17}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 361)] Object 'p:key_2' can not be found in current view.
+
+define_attribute {p:key_2} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 362)] Object 'p:key_2' can not be found in current view.
+
+define_attribute {p:key_2} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 363)] Object 'p:key_2' can not be found in current view.
+
+define_attribute {p:key_2} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 364)] Object 'p:key_2' can not be found in current view.
+
+define_attribute {p:key_fft_in} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 365)] Object 'p:key_fft_in' can not be found in current view.
+
+define_attribute {p:key_fft_in} {PAP_IO_LOC} {K16}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 366)] Object 'p:key_fft_in' can not be found in current view.
+
+define_attribute {p:key_fft_in} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 367)] Object 'p:key_fft_in' can not be found in current view.
+
+define_attribute {p:key_fft_in} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 368)] Object 'p:key_fft_in' can not be found in current view.
+
+define_attribute {p:key_fft_in} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 369)] Object 'p:key_fft_in' can not be found in current view.
+
+create_clock -name clk_50M [get_ports clk_50M] -period 20.000 -waveform {0.000 10.000}
+	E: CommandTiming-0057: Nothing matched for 'source_list', command 'create_clock' is aborted.
+
+create_clock -name {clk_50M} [get_ports {clk_50M}] -period {20.000} -waveform {0.000 10.000}
+
+	E: ConstraintEditor-0046: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 370)] Failed to import constraint "create_clock -name clk_50M [get_ports clk_50M] -period 20.000 -waveform {0.000 10.000}".
+
+define_attribute {p:rst_n} {PAP_IO_LOC} {K18}
+
+	C: ConstraintEditor-2002: [D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ad9280_ad9708_HDMI.fdc(line number: 341)] | Port rst_n has been placed at location K18, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+
+get_ports clk_50M
+	C: Timing-4002: Port 'clk_50M' is not found.
+
+
+
+
+
+W: ConstraintEditor-4019: Port 'da_data[0]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'da_data[1]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'da_data[2]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'da_data[3]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'da_data[4]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'da_data[5]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'da_data[6]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'da_data[7]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'clk' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rom_addr[0]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rom_addr[1]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rom_addr[2]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rom_addr[3]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rom_addr[4]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rom_addr[5]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rom_addr[6]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rom_addr[7]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rom_addr[8]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rom_addr[9]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rom_addr[10]' unspecified I/O constraint.
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

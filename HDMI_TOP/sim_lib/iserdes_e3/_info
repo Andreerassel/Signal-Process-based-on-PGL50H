@@ -1,0 +1,37 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/01_Learning_projects/PDS_projects/SINGAL/AD_DA_50H/da_ad_HDMI/sim_lib
+vT3VmTAnM4N+aOBtUS33vvI0Gi0u/+uLcwK/dDRIFKa4=
+!s10a 1657559192
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1729687169
+!i10b 0
+!s100 UJAVY@>01G;9:jV5gaXgL3
+IkZ_]D<D2^7elA`i?z=Km_1
+VDg1SIo80bB@j0V0VzS_@n1
+!i8a 2014883840
+!s105 iserdes_e3_hcl_iologic_vp_unit
+S1
+dD:/Apps/1_LearningApps/PDS_2022.1/arch/vendor/pango/verilog/simulation/modelsim10.2c
+w1729687169
+8./iserdes_e3_source_codes/iserdes_e3_hcl_iologic.vp
+F./iserdes_e3_source_codes/iserdes_e3_hcl_iologic.vp
+L0 23
+OL;L;10.5;63
+r1
+!s85 0
+31
+!s108 1729687169.000000
+!s107 ./iserdes_e3_source_codes/iserdes_e3_hcl_iologic.vp|
+!s90 -incr|-f|./filelist_iserdes_e3_gtp.f|-work|iserdes_e3|-sv|-mfcu|
+!i113 0
+o-work iserdes_e3 -sv -mfcu -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0
+nfb843e3

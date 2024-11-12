@@ -1,0 +1,178 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/01_Learning_projects/PDS_projects/SINGAL/AD_DA_50H/da_ad_HDMI/sim_lib
+vBs1NUWJPbHC7g7ygolkPNn/sFumKJhDZAKcZ60+4l/E=
+Z0 !s10a 1657559070
+Z1 !s110 1729687137
+!i10b 0
+!s100 o_fSOf8iFKjaXjn`?@mA]2
+I4dVI0;QThV;W3MVlQ5hIO3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!i8a 1400664784
+Z3 dD:/Apps/1_LearningApps/PDS_2022.1/arch/vendor/pango/verilog/simulation/modelsim10.2c
+Z4 w1729687137
+8./dll_e2_source_codes/dll_e2_clk_mux_2to1.vp
+F./dll_e2_source_codes/dll_e2_clk_mux_2to1.vp
+Z5 L0 23
+Z6 OL;L;10.5;63
+r1
+!s85 0
+31
+Z7 !s108 1729687137.000000
+Z8 !s107 ./dll_e2_source_codes/dll_e2_ddrphy_dll_fsm_hp.vp|./dll_e2_source_codes/dll_e2_clk_mux_2to1.vp|./dll_e2_source_codes/dll_e2_dll_clk_gate.vp|./dll_e2_source_codes/dll_e2_dll_dff.vp|./dll_e2_source_codes/dll_e2_ddrphy_dll_fsm.vp|./dll_e2_source_codes/dll_e2_ddrphy_dll_fdiv.vp|./dll_e2_source_codes/dll_e2_dly_chain.vp|
+Z9 !s90 -incr|-f|./filelist_dll_e2_gtp.f|-work|dll_e2|
+!i113 0
+Z10 o-work dll_e2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+n273f541
+vPxQJ+DaVIHSqGmZte5hHYoPsLha0JWKqietK8MMjD/w=
+R0
+R1
+!i10b 0
+!s100 4c2Jm???Oi1`FSCJhoT2j0
+Ii1[K`Tk`g2XVBeYzjN0d>2
+R2
+!i8a 1858214624
+R3
+R4
+8./dll_e2_source_codes/dll_e2_ddrphy_dll_fdiv.vp
+F./dll_e2_source_codes/dll_e2_ddrphy_dll_fdiv.vp
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n8d756
+vHoFqokkF9/NoEFGXoYfK6JAycn+Khy1ZFsAq3j3rAbE=
+R0
+R1
+!i10b 0
+!s100 =`=7R>UIbfWj9EW=8ZYMC3
+I18>I7^ikIFzhWY2[El4`[2
+R2
+!i8a 1191756976
+R3
+R4
+8./dll_e2_source_codes/dll_e2_ddrphy_dll_fsm.vp
+F./dll_e2_source_codes/dll_e2_ddrphy_dll_fsm.vp
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n5008c5d
+vHx/OBUT++Gem2UpLyeABSNtsEFN7h9EzKesKiCE3e9w=
+R0
+R1
+!i10b 0
+!s100 ehW8dXX`F^S7]aV_58gV`3
+IK^B55D47BAJdeO=UXOI3<0
+R2
+!i8a 393399248
+R3
+R4
+8./dll_e2_source_codes/dll_e2_ddrphy_dll_fsm_hp.vp
+F./dll_e2_source_codes/dll_e2_ddrphy_dll_fsm_hp.vp
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n8c685f0
+vb4lanFm2+Mf5erW4+Ray+Jcq9ksY37IyWbcgjOvjVos=
+R0
+R1
+!i10b 0
+!s100 =B0Y9`9FZKka47YN?z@Ad1
+I9>6BP_XabOUMb[PB1gQ8B3
+R2
+!i8a 883650816
+R3
+R4
+8./dll_e2_source_codes/dll_e2_dll_clk_gate.vp
+F./dll_e2_source_codes/dll_e2_dll_clk_gate.vp
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+ndb48565
+vEc9VaYhxNRZoopXDJcfiSw==
+R0
+R1
+!i10b 0
+!s100 _ocki18F>=LB3T@aF3n:I3
+Io[c[FgJZmM;CSA52lbFKY1
+R2
+!i8a 1813069168
+R3
+R4
+8./dll_e2_source_codes/dll_e2_dll_dff.vp
+F./dll_e2_source_codes/dll_e2_dll_dff.vp
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+nc35ba26
+vJbbGAvuy54Rz/0UGz+mVSbKYCgLLVKNCuhlz9V4LVVo=
+R0
+R1
+!i10b 0
+!s100 8YVd>63_j8GkLo=H1HAE:3
+IhboI?aCf1:^aFAMPeXMbK0
+R2
+!i8a 1367465648
+R3
+R4
+8./dll_e2_source_codes/dll_e2_dly_chain.vp
+F./dll_e2_source_codes/dll_e2_dly_chain.vp
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+ncdb0dee

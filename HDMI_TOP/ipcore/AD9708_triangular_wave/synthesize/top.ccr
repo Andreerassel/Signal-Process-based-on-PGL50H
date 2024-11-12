@@ -1,0 +1,54 @@
+##### Written on 2024/01/08 17:21:44 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-6FBG484
+
+Top Module : 
+	top
+
+Constraint File(s) : 
+	D:/admin/desktop/AD_DA_50H/AD9708_triangular_wave/source/ad_9708_wave.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 2 critical warning(s), 0 warning(s), out of 68 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+define_attribute {p:da_data[7]} {PAP_IO_LOC} {AB13}
+
+	C: ConstraintEditor-2002: [D:/admin/desktop/AD_DA_50H/AD9708_triangular_wave/source/ad_9708_wave.fdc(line number: 2)] | Port da_data[7] has been placed at location AB13, whose type is share pin.
+
+define_attribute {p:da_data[6]} {PAP_IO_LOC} {Y13}
+
+	C: ConstraintEditor-2002: [D:/admin/desktop/AD_DA_50H/AD9708_triangular_wave/source/ad_9708_wave.fdc(line number: 9)] | Port da_data[6] has been placed at location Y13, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+
+
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

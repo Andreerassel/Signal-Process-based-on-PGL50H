@@ -1,0 +1,314 @@
+[Info] [2024-1-8 17:08:56] /***************************Start Configuration***************************/
+[Info] [2024-1-8 17:08:56] Path: D:/software/pango2022.1/PDS_2022.1/bin
+[Info] [2024-1-8 17:08:56] Version: 99559
+[Info] [2024-1-8 17:08:57] Current Path: D:/admin/desktop/AD_DA_50H/AD9708_sawtooth_wave
+[Info] [2024-1-8 17:08:57] PDS Dir Path: D:/admin/desktop/AD_DA_50H/AD9708_sawtooth_wave
+[Info] [2024-1-8 17:09:00] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-1-8 17:09:00] Client Local host name:DESKTOP-NTRMANG
+[Debug] [2024-1-8 17:09:00] Client Local Address:192.168.3.80
+[Debug] [2024-1-8 17:09:00] Server Address:127.0.0.1, Port:65420
+[Info] [2024-1-8 17:09:00] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-1-8 17:09:00] Finish.
+[Info] [2024-1-8 17:09:00] Connect server succeeded
+[Debug] [2024-1-8 17:09:00] Send RPC:1
+[Debug] [2024-1-8 17:09:00] Send cmd [check version information:40005] OK
+[Debug] [2024-1-8 17:09:00] Send RPC:2
+[Debug] [2024-1-8 17:09:00] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-1-8 17:09:00] Begin to send initialize chain cmd...
+[Debug] [2024-1-8 17:09:00] Send RPC:3
+[Debug] [2024-1-8 17:09:00] Send cmd [Open config cable:20001] OK
+[Debug] [2024-1-8 17:09:00] End to send initialize chain cmd.
+[Debug] [2024-1-8 17:09:00] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2024-1-8 17:09:01] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2024-1-8 17:09:02] begin the exec of open cable cmd...
+[Debug] [2024-1-8 17:09:02] Begin to deal with chain from server...
+[Debug] [2024-1-8 17:09:02] Begin to set user chain...
+[Debug] [2024-1-8 17:09:02] End to set user chain.
+[Debug] [2024-1-8 17:09:02] Begin to update graphic item and tree item ...
+[Debug] [2024-1-8 17:09:02] End to update graphic item and tree item ...
+[Info] [2024-1-8 17:09:03] set OpenLastPath: D:/admin/desktop/AD_DA_50H/AD9708_sawtooth_wave/generate_bitstream/top.sbit
+[Debug] [2024-1-8 17:09:03] begin to get device info from CFG file...
+[Debug] [2024-1-8 17:09:03] end to get device info from CFG file...
+[Debug] [2024-1-8 17:09:03] Begin to update graphic item and tree item ...
+[Debug] [2024-1-8 17:09:03] End to update graphic item and tree item ...
+[Debug] [2024-1-8 17:09:03] End to deal wiht chain from server.
+[Debug] [2024-1-8 17:09:03] end the exec of open cable cmd.
+[Debug] [2024-1-8 17:09:03] COMMAND[Open config cable] execute successfully, takes 3.0 secs.
+[Debug] [2024-1-8 17:09:05] Begin to send programming cmd...
+[Debug] [2024-1-8 17:09:05] Send RPC:4
+[Debug] [2024-1-8 17:09:05] Begin to send program data.
+[Debug] [2024-1-8 17:09:05] End to send program data.
+[Debug] [2024-1-8 17:09:05] Send cmd [Program:20002] OK
+[Debug] [2024-1-8 17:09:05] The value of Progress is 6
+[Debug] [2024-1-8 17:09:05] The value of Progress is 10
+[Debug] [2024-1-8 17:09:05] The value of Progress is 15
+[Debug] [2024-1-8 17:09:05] The value of Progress is 20
+[Debug] [2024-1-8 17:09:05] The value of Progress is 25
+[Debug] [2024-1-8 17:09:05] The value of Progress is 30
+[Debug] [2024-1-8 17:09:05] The value of Progress is 35
+[Debug] [2024-1-8 17:09:05] The value of Progress is 40
+[Debug] [2024-1-8 17:09:06] The value of Progress is 45
+[Debug] [2024-1-8 17:09:06] The value of Progress is 50
+[Debug] [2024-1-8 17:09:06] The value of Progress is 55
+[Debug] [2024-1-8 17:09:06] The value of Progress is 60
+[Debug] [2024-1-8 17:09:06] The value of Progress is 65
+[Debug] [2024-1-8 17:09:06] The value of Progress is 70
+[Debug] [2024-1-8 17:09:06] The value of Progress is 75
+[Debug] [2024-1-8 17:09:06] The value of Progress is 80
+[Debug] [2024-1-8 17:09:06] The value of Progress is 85
+[Debug] [2024-1-8 17:09:06] The value of Progress is 90
+[Debug] [2024-1-8 17:09:06] The value of Progress is 95
+[Debug] [2024-1-8 17:09:06] The value of Progress is 100
+[Debug] [2024-1-8 17:09:07] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2024-1-8 17:09:07] End to send programming cmd.
+[Debug] [2024-1-8 17:09:12] Begin to send programming cmd...
+[Debug] [2024-1-8 17:09:12] Send RPC:5
+[Debug] [2024-1-8 17:09:12] Begin to send program data.
+[Debug] [2024-1-8 17:09:12] End to send program data.
+[Debug] [2024-1-8 17:09:12] Send cmd [Program:20002] OK
+[Debug] [2024-1-8 17:09:12] The value of Progress is 6
+[Debug] [2024-1-8 17:09:12] The value of Progress is 10
+[Debug] [2024-1-8 17:09:12] The value of Progress is 15
+[Debug] [2024-1-8 17:09:13] The value of Progress is 20
+[Debug] [2024-1-8 17:09:13] The value of Progress is 25
+[Debug] [2024-1-8 17:09:13] The value of Progress is 30
+[Debug] [2024-1-8 17:09:13] The value of Progress is 35
+[Debug] [2024-1-8 17:09:13] The value of Progress is 40
+[Debug] [2024-1-8 17:09:13] The value of Progress is 45
+[Debug] [2024-1-8 17:09:13] The value of Progress is 50
+[Debug] [2024-1-8 17:09:13] The value of Progress is 55
+[Debug] [2024-1-8 17:09:13] The value of Progress is 60
+[Debug] [2024-1-8 17:09:13] The value of Progress is 65
+[Debug] [2024-1-8 17:09:13] The value of Progress is 70
+[Debug] [2024-1-8 17:09:14] The value of Progress is 75
+[Debug] [2024-1-8 17:09:14] The value of Progress is 80
+[Debug] [2024-1-8 17:09:14] The value of Progress is 85
+[Debug] [2024-1-8 17:09:14] The value of Progress is 90
+[Debug] [2024-1-8 17:09:14] The value of Progress is 95
+[Debug] [2024-1-8 17:09:14] The value of Progress is 100
+[Debug] [2024-1-8 17:09:14] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2024-1-8 17:09:14] End to send programming cmd.
+[Info] [2024-1-8 17:09:24] /***************************End Configration***************************/
+[Info] [2024-1-8 17:09:53] /***************************Start Configuration***************************/
+[Info] [2024-1-8 17:09:53] Path: D:/software/pango2022.1/PDS_2022.1/bin
+[Info] [2024-1-8 17:09:53] Version: 99559
+[Info] [2024-1-8 17:09:54] Current Path: D:/admin/desktop/AD_DA_50H/AD9708_sawtooth_wave
+[Info] [2024-1-8 17:09:54] PDS Dir Path: D:/admin/desktop/AD_DA_50H/AD9708_sawtooth_wave
+[Info] [2024-1-8 17:09:56] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-1-8 17:09:56] Client Local host name:DESKTOP-NTRMANG
+[Debug] [2024-1-8 17:09:56] Client Local Address:192.168.3.80
+[Debug] [2024-1-8 17:09:56] Server Address:127.0.0.1, Port:65420
+[Info] [2024-1-8 17:09:56] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-1-8 17:09:56] Finish.
+[Info] [2024-1-8 17:09:56] Connect server succeeded
+[Debug] [2024-1-8 17:09:56] Send RPC:1
+[Debug] [2024-1-8 17:09:56] Send cmd [check version information:40005] OK
+[Debug] [2024-1-8 17:09:56] Send RPC:2
+[Debug] [2024-1-8 17:09:56] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-1-8 17:09:56] Begin to send initialize chain cmd...
+[Debug] [2024-1-8 17:09:56] Send RPC:3
+[Debug] [2024-1-8 17:09:56] Send cmd [Open config cable:20001] OK
+[Debug] [2024-1-8 17:09:56] End to send initialize chain cmd.
+[Debug] [2024-1-8 17:09:56] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2024-1-8 17:09:57] COMMAND[get_cable_paras] execute successfully, takes 0.7 secs.
+[Debug] [2024-1-8 17:09:57] begin the exec of open cable cmd...
+[Debug] [2024-1-8 17:09:57] Begin to deal with chain from server...
+[Debug] [2024-1-8 17:09:57] Begin to set user chain...
+[Debug] [2024-1-8 17:09:57] End to set user chain.
+[Debug] [2024-1-8 17:09:57] Begin to update graphic item and tree item ...
+[Debug] [2024-1-8 17:09:57] End to update graphic item and tree item ...
+[Info] [2024-1-8 17:09:59] set OpenLastPath: D:/admin/desktop/AD_DA_50H/AD9708_sawtooth_wave/generate_bitstream/top.sbit
+[Debug] [2024-1-8 17:09:59] begin to get device info from CFG file...
+[Debug] [2024-1-8 17:09:59] end to get device info from CFG file...
+[Debug] [2024-1-8 17:09:59] Begin to update graphic item and tree item ...
+[Debug] [2024-1-8 17:09:59] End to update graphic item and tree item ...
+[Debug] [2024-1-8 17:09:59] End to deal wiht chain from server.
+[Debug] [2024-1-8 17:09:59] end the exec of open cable cmd.
+[Debug] [2024-1-8 17:09:59] COMMAND[Open config cable] execute successfully, takes 2.5 secs.
+[Debug] [2024-1-8 17:10:00] Begin to send programming cmd...
+[Debug] [2024-1-8 17:10:00] Send RPC:4
+[Debug] [2024-1-8 17:10:00] Begin to send program data.
+[Debug] [2024-1-8 17:10:00] End to send program data.
+[Debug] [2024-1-8 17:10:00] Send cmd [Program:20002] OK
+[Debug] [2024-1-8 17:10:12] Begin to send abort process cmd.
+[Debug] [2024-1-8 17:10:12] Begin to flush aborting cmd. 
+[Debug] [2024-1-8 17:10:12] End to flush aborting cmd. 
+[Debug] [2024-1-8 17:10:12] End to send abort process cmd.
+[Debug] [2024-1-8 17:10:12] End to send programming cmd.
+[Info] [2024-1-8 17:10:13] /***************************End Configration***************************/
+[Info] [2024-1-8 17:12:38] /***************************Start Configuration***************************/
+[Info] [2024-1-8 17:12:38] Path: D:/software/pango2022.1/PDS_2022.1/bin
+[Info] [2024-1-8 17:12:38] Version: 99559
+[Info] [2024-1-8 17:12:39] Current Path: D:/admin/desktop/AD_DA_50H/AD9708_sawtooth_wave
+[Info] [2024-1-8 17:12:39] PDS Dir Path: D:/admin/desktop/AD_DA_50H/AD9708_sawtooth_wave
+[Info] [2024-1-8 17:12:41] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-1-8 17:12:41] Client Local host name:DESKTOP-NTRMANG
+[Debug] [2024-1-8 17:12:41] Client Local Address:192.168.3.80
+[Debug] [2024-1-8 17:12:41] Server Address:127.0.0.1, Port:65420
+[Info] [2024-1-8 17:12:41] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-1-8 17:12:41] Finish.
+[Info] [2024-1-8 17:12:41] Connect server succeeded
+[Debug] [2024-1-8 17:12:41] Send RPC:1
+[Debug] [2024-1-8 17:12:41] Send cmd [check version information:40005] OK
+[Debug] [2024-1-8 17:12:56] Begin to send initialize chain cmd...
+[Error] [2024-1-8 17:12:56] fail to exec  cmd...
+[Debug] [2024-1-8 17:12:56] End to send initialize chain cmd.
+[Info] [2024-1-8 17:13:04] /***************************End Configration***************************/
+[Info] [2024-1-8 17:13:08] /***************************Start Configuration***************************/
+[Info] [2024-1-8 17:13:08] Path: D:/software/pango2022.1/PDS_2022.1/bin
+[Info] [2024-1-8 17:13:08] Version: 99559
+[Info] [2024-1-8 17:13:09] Current Path: D:/admin/desktop/AD_DA_50H/AD9708_sawtooth_wave
+[Info] [2024-1-8 17:13:09] PDS Dir Path: D:/admin/desktop/AD_DA_50H/AD9708_sawtooth_wave
+[Info] [2024-1-8 17:13:10] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-1-8 17:13:10] Client Local host name:DESKTOP-NTRMANG
+[Debug] [2024-1-8 17:13:10] Client Local Address:192.168.3.80
+[Debug] [2024-1-8 17:13:10] Server Address:127.0.0.1, Port:65420
+[Info] [2024-1-8 17:13:10] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-1-8 17:13:10] Finish.
+[Info] [2024-1-8 17:13:10] Connect server succeeded
+[Debug] [2024-1-8 17:13:10] Send RPC:1
+[Debug] [2024-1-8 17:13:10] Send cmd [check version information:40005] OK
+[Error] [2024-1-8 17:13:58] Server close connect
+[Info] [2024-1-8 17:13:58] Disconnect from Server: 127.0.0.1  Port: 65420
+[Warn] [2024-1-8 17:13:58] Server is disconnected
+[Debug] [2024-1-8 17:13:58] end to connect server
+[Debug] [2024-1-8 17:13:58] Server close connect process finish
+[Debug] [2024-1-8 17:13:58] Begin to delete graphic item and tree item ...
+[Debug] [2024-1-8 17:13:58] Begin to remove all device in BS mode...
+[Debug] [2024-1-8 17:13:58] begin remove user device...
+[Debug] [2024-1-8 17:13:58] Begin to update graphic item and tree item ...
+[Debug] [2024-1-8 17:13:58] End to update graphic item and tree item ...
+[Debug] [2024-1-8 17:13:58] end remove user device.
+[Debug] [2024-1-8 17:13:58] End to remove devices in BS mode...
+[Debug] [2024-1-8 17:13:58] Begin to update graphic item and tree item ...
+[Debug] [2024-1-8 17:13:58] End to update graphic item and tree item ...
+[Debug] [2024-1-8 17:13:58] End to delete graphic item and tree item ...
+[Info] [2024-1-8 17:14:02] /***************************End Configration***************************/
+[Info] [2024-1-8 17:14:21] /***************************Start Configuration***************************/
+[Info] [2024-1-8 17:14:21] Path: D:/software/pango2022.1/PDS_2022.1/bin
+[Info] [2024-1-8 17:14:21] Version: 99559
+[Info] [2024-1-8 17:14:22] Current Path: D:/admin/desktop/AD_DA_50H/AD9708_sawtooth_wave
+[Info] [2024-1-8 17:14:22] PDS Dir Path: D:/admin/desktop/AD_DA_50H/AD9708_sawtooth_wave
+[Info] [2024-1-8 17:14:24] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-1-8 17:14:24] Client Local host name:DESKTOP-NTRMANG
+[Debug] [2024-1-8 17:14:24] Client Local Address:192.168.3.80
+[Debug] [2024-1-8 17:14:24] Server Address:127.0.0.1, Port:65420
+[Info] [2024-1-8 17:14:24] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-1-8 17:14:24] Finish.
+[Info] [2024-1-8 17:14:24] Connect server succeeded
+[Debug] [2024-1-8 17:14:24] Send RPC:1
+[Debug] [2024-1-8 17:14:24] Send cmd [check version information:40005] OK
+[Debug] [2024-1-8 17:14:24] Send RPC:2
+[Debug] [2024-1-8 17:14:24] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-1-8 17:14:24] Begin to send initialize chain cmd...
+[Debug] [2024-1-8 17:14:24] Send RPC:3
+[Debug] [2024-1-8 17:14:24] Send cmd [Open config cable:20001] OK
+[Debug] [2024-1-8 17:14:24] End to send initialize chain cmd.
+[Debug] [2024-1-8 17:14:24] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2024-1-8 17:14:25] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2024-1-8 17:14:26] begin the exec of open cable cmd...
+[Debug] [2024-1-8 17:14:26] Begin to deal with chain from server...
+[Debug] [2024-1-8 17:14:26] Begin to set user chain...
+[Debug] [2024-1-8 17:14:26] End to set user chain.
+[Debug] [2024-1-8 17:14:26] Begin to update graphic item and tree item ...
+[Debug] [2024-1-8 17:14:26] End to update graphic item and tree item ...
+[Info] [2024-1-8 17:14:28] set OpenLastPath: D:/admin/desktop/AD_DA_50H/AD9708_sawtooth_wave/generate_bitstream/top.sbit
+[Debug] [2024-1-8 17:14:28] begin to get device info from CFG file...
+[Debug] [2024-1-8 17:14:28] end to get device info from CFG file...
+[Debug] [2024-1-8 17:14:28] Begin to update graphic item and tree item ...
+[Debug] [2024-1-8 17:14:28] End to update graphic item and tree item ...
+[Debug] [2024-1-8 17:14:28] End to deal wiht chain from server.
+[Debug] [2024-1-8 17:14:28] end the exec of open cable cmd.
+[Debug] [2024-1-8 17:14:28] COMMAND[Open config cable] execute successfully, takes 3.4 secs.
+[Debug] [2024-1-8 17:14:29] Begin to send programming cmd...
+[Debug] [2024-1-8 17:14:29] Send RPC:4
+[Debug] [2024-1-8 17:14:29] Begin to send program data.
+[Debug] [2024-1-8 17:14:29] End to send program data.
+[Debug] [2024-1-8 17:14:29] Send cmd [Program:20002] OK
+[Debug] [2024-1-8 17:14:30] The value of Progress is 6
+[Debug] [2024-1-8 17:14:30] The value of Progress is 10
+[Debug] [2024-1-8 17:14:30] The value of Progress is 15
+[Debug] [2024-1-8 17:14:30] The value of Progress is 20
+[Debug] [2024-1-8 17:14:30] The value of Progress is 25
+[Debug] [2024-1-8 17:14:30] The value of Progress is 30
+[Debug] [2024-1-8 17:14:30] The value of Progress is 35
+[Debug] [2024-1-8 17:14:30] The value of Progress is 40
+[Debug] [2024-1-8 17:14:30] The value of Progress is 45
+[Debug] [2024-1-8 17:14:30] The value of Progress is 50
+[Debug] [2024-1-8 17:14:30] The value of Progress is 55
+[Debug] [2024-1-8 17:14:31] The value of Progress is 60
+[Debug] [2024-1-8 17:14:31] The value of Progress is 65
+[Debug] [2024-1-8 17:14:31] The value of Progress is 70
+[Debug] [2024-1-8 17:14:31] The value of Progress is 75
+[Debug] [2024-1-8 17:14:31] The value of Progress is 80
+[Debug] [2024-1-8 17:14:31] The value of Progress is 85
+[Debug] [2024-1-8 17:14:31] The value of Progress is 90
+[Debug] [2024-1-8 17:14:31] The value of Progress is 95
+[Debug] [2024-1-8 17:14:31] The value of Progress is 100
+[Debug] [2024-1-8 17:14:31] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2024-1-8 17:14:31] End to send programming cmd.
+[Info] [2024-1-8 17:16:20] /***************************End Configration***************************/
+[Info] [2024-3-12 17:00:28] /***************************Start Configuration***************************/
+[Info] [2024-3-12 17:00:28] Path: D:/software/pango2022.1/PDS_2022.1/bin
+[Info] [2024-3-12 17:00:28] Version: 99559
+[Info] [2024-3-12 17:00:29] Current Path: D:/admin/desktop/ADDA/AD_DA_50H/AD9708_sawtooth_wave
+[Info] [2024-3-12 17:00:29] PDS Dir Path: D:/admin/desktop/ADDA/AD_DA_50H/AD9708_sawtooth_wave
+[Info] [2024-3-12 17:00:30] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-3-12 17:00:30] Client Local host name:DESKTOP-NTRMANG
+[Debug] [2024-3-12 17:00:30] Client Local Address:192.168.3.80
+[Debug] [2024-3-12 17:00:30] Server Address:127.0.0.1, Port:65420
+[Info] [2024-3-12 17:00:30] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-3-12 17:00:30] Finish.
+[Info] [2024-3-12 17:00:30] Connect server succeeded
+[Debug] [2024-3-12 17:00:30] Send RPC:1
+[Debug] [2024-3-12 17:00:30] Send cmd [check version information:40005] OK
+[Debug] [2024-3-12 17:00:30] Send RPC:2
+[Debug] [2024-3-12 17:00:30] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-3-12 17:00:30] Begin to send initialize chain cmd...
+[Debug] [2024-3-12 17:00:30] Send RPC:3
+[Debug] [2024-3-12 17:00:30] Send cmd [Open config cable:20001] OK
+[Debug] [2024-3-12 17:00:30] End to send initialize chain cmd.
+[Debug] [2024-3-12 17:00:30] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2024-3-12 17:00:31] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2024-3-12 17:00:31] begin the exec of open cable cmd...
+[Debug] [2024-3-12 17:00:31] Begin to deal with chain from server...
+[Debug] [2024-3-12 17:00:31] Begin to set user chain...
+[Debug] [2024-3-12 17:00:31] End to set user chain.
+[Debug] [2024-3-12 17:00:31] Begin to update graphic item and tree item ...
+[Debug] [2024-3-12 17:00:31] End to update graphic item and tree item ...
+[Info] [2024-3-12 17:00:34] set OpenLastPath: D:/admin/desktop/ADDA/AD_DA_50H/AD9708_sawtooth_wave/generate_bitstream/top.sbit
+[Debug] [2024-3-12 17:00:34] begin to get device info from CFG file...
+[Debug] [2024-3-12 17:00:34] end to get device info from CFG file...
+[Debug] [2024-3-12 17:00:34] Begin to update graphic item and tree item ...
+[Debug] [2024-3-12 17:00:34] End to update graphic item and tree item ...
+[Debug] [2024-3-12 17:00:34] End to deal wiht chain from server.
+[Debug] [2024-3-12 17:00:34] end the exec of open cable cmd.
+[Debug] [2024-3-12 17:00:34] COMMAND[Open config cable] execute successfully, takes 3.9 secs.
+[Debug] [2024-3-12 17:00:35] Begin to send programming cmd...
+[Debug] [2024-3-12 17:00:35] Send RPC:4
+[Debug] [2024-3-12 17:00:35] Begin to send program data.
+[Debug] [2024-3-12 17:00:35] End to send program data.
+[Debug] [2024-3-12 17:00:35] Send cmd [Program:20002] OK
+[Debug] [2024-3-12 17:00:36] The value of Progress is 6
+[Debug] [2024-3-12 17:00:36] The value of Progress is 10
+[Debug] [2024-3-12 17:00:36] The value of Progress is 15
+[Debug] [2024-3-12 17:00:36] The value of Progress is 20
+[Debug] [2024-3-12 17:00:36] The value of Progress is 25
+[Debug] [2024-3-12 17:00:36] The value of Progress is 30
+[Debug] [2024-3-12 17:00:36] The value of Progress is 35
+[Debug] [2024-3-12 17:00:36] The value of Progress is 40
+[Debug] [2024-3-12 17:00:36] The value of Progress is 45
+[Debug] [2024-3-12 17:00:36] The value of Progress is 50
+[Debug] [2024-3-12 17:00:36] The value of Progress is 55
+[Debug] [2024-3-12 17:00:36] The value of Progress is 60
+[Debug] [2024-3-12 17:00:37] The value of Progress is 65
+[Debug] [2024-3-12 17:00:37] The value of Progress is 70
+[Debug] [2024-3-12 17:00:37] The value of Progress is 75
+[Debug] [2024-3-12 17:00:37] The value of Progress is 80
+[Debug] [2024-3-12 17:00:37] The value of Progress is 85
+[Debug] [2024-3-12 17:00:37] The value of Progress is 90
+[Debug] [2024-3-12 17:00:37] The value of Progress is 95
+[Debug] [2024-3-12 17:00:37] The value of Progress is 100
+[Debug] [2024-3-12 17:00:37] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2024-3-12 17:00:37] End to send programming cmd.
+[Info] [2024-3-12 17:00:56] /***************************End Configration***************************/

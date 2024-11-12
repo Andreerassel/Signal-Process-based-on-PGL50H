@@ -1,0 +1,1154 @@
+
+----------------------------------------------------------------------------------------------------
+| Tool Version : Fabric Compiler (version 2022.1 <build 99559>)
+| Date         : Mon Jan  8 17:19:02 2024
+| Design       : square_wave
+| Device       : PGL50H
+| Speed Grade  : -6
+| Package      : FBG484
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+| Timing Models: Production
+| Tcl Command  : report_timing 
+----------------------------------------------------------------------------------------------------
+
+Timing analysis mode : multi corner
+
+ Clock Summary:                                                                                                                            
+*******************************************************************************************************************************************
+                                                                                        Clock   Non-clock                                  
+ Clock                                 Period       Waveform       Type                 Loads       Loads  Sources                         
+-------------------------------------------------------------------------------------------------------------------------------------------
+ square_wave|clk_50M                   1000.000     {0 500}        Declared                 0           0  {clk_50M}                       
+ ad_clock_125m|u_pll/u_pll_e3/CLKOUT0  1000.000     {0 500}        Declared                 8           1  {u_pll/u_pll_e3/goppll/CLKOUT0} 
+===========================================================================================================================================
+
+ Clock Groups:                                                                                      
+****************************************************************************************************
+ Clock Group                   Group Type                 Clocks                                    
+----------------------------------------------------------------------------------------------------
+ Inferred_clock_group_0        asynchronous               square_wave|clk_50M                       
+ Inferred_clock_group_1        asynchronous               ad_clock_125m|u_pll/u_pll_e3/CLKOUT0      
+====================================================================================================
+
+ Performance Summary:                                                                               
+****************************************************************************************************
+                              Requested       Estimated      Requested      Estimated               
+ Clock                        Frequency       Frequency      Period         Period             Slack
+----------------------------------------------------------------------------------------------------
+ ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+                              1.000 MHz     348.068 MHz       1000.000          2.873        997.127
+====================================================================================================
+
+Design Summary : All Constraints Met.
+
+Setup Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+                        ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+                                                   498.910       0.000              0             46
+====================================================================================================
+
+Hold Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+                        ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+                                                     0.351       0.000              0             46
+====================================================================================================
+
+Recovery Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Removal Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Minimum Pulse Width Summary(Slow Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ad_clock_125m|u_pll/u_pll_e3/CLKOUT0              499.102       0.000              0              8
+====================================================================================================
+
+Setup Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+                        ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+                                                   499.192       0.000              0             46
+====================================================================================================
+
+Hold Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+                        ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+                                                     0.285       0.000              0             46
+====================================================================================================
+
+Recovery Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Removal Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Minimum Pulse Width Summary(Fast Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ ad_clock_125m|u_pll/u_pll_e3/CLKOUT0              499.282       0.000              0              8
+====================================================================================================
+
+Slow Corner
+****************************************************************************************************
+====================================================================================================
+
+Startpoint  : rom_addr[9]/opit_0_inv_AQ_perm/CLK
+Endpoint    : u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/ADDRB[12]
+Path Group  : ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+Path Type   : max (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.063  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.590
+  Launch Clock Delay      :  2.688
+  Clock Pessimism Removal :  0.035
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (falling edge)
+                                                       500.000     500.000 f                        
+ PLL_158_55/CLK_OUT0                                     0.000     500.000 f       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.078     501.078         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000     501.078 f       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        1.610     502.688         ntclkbufg_0      
+ CLMA_138_21/CLK                                                           f       rom_addr[9]/opit_0_inv_AQ_perm/CLK
+
+ CLMA_138_21/Q0                    tco                   0.287     502.975 f       rom_addr[9]/opit_0_inv_AQ_perm/Q
+                                   net (fanout=4)        0.554     503.529         rom_addr[9]      
+ DRM_142_4/ADB0[12]                                                        f       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/ADDRB[12]
+
+ Data arrival time                                                 503.529         Logic Levels: 0  
+                                                                                   Logic: 0.287ns(34.126%), Route: 0.554ns(65.874%)
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.059    1001.059         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000    1001.059 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        1.531    1002.590         ntclkbufg_0      
+ DRM_142_4/CLKB[0]                                                         r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKB
+ clock pessimism                                         0.035    1002.625                          
+ clock uncertainty                                      -0.150    1002.475                          
+
+ Setup time                                             -0.036    1002.439                          
+
+ Data required time                                               1002.439                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1002.439                          
+ Data arrival time                                                 503.529                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       498.910                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : rom_addr[4]/opit_0_inv_A2Q21/CLK
+Endpoint    : u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/ADDRB[7]
+Path Group  : ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+Path Type   : max (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.063  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.590
+  Launch Clock Delay      :  2.688
+  Clock Pessimism Removal :  0.035
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (falling edge)
+                                                       500.000     500.000 f                        
+ PLL_158_55/CLK_OUT0                                     0.000     500.000 f       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.078     501.078         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000     501.078 f       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        1.610     502.688         ntclkbufg_0      
+ CLMA_138_13/CLK                                                           f       rom_addr[4]/opit_0_inv_A2Q21/CLK
+
+ CLMA_138_13/Q3                    tco                   0.286     502.974 f       rom_addr[4]/opit_0_inv_A2Q21/Q1
+                                   net (fanout=4)        0.502     503.476         rom_addr[4]      
+ DRM_142_4/ADB0[7]                                                         f       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/ADDRB[7]
+
+ Data arrival time                                                 503.476         Logic Levels: 0  
+                                                                                   Logic: 0.286ns(36.294%), Route: 0.502ns(63.706%)
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.059    1001.059         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000    1001.059 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        1.531    1002.590         ntclkbufg_0      
+ DRM_142_4/CLKB[0]                                                         r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKB
+ clock pessimism                                         0.035    1002.625                          
+ clock uncertainty                                      -0.150    1002.475                          
+
+ Setup time                                             -0.036    1002.439                          
+
+ Data required time                                               1002.439                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1002.439                          
+ Data arrival time                                                 503.476                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       498.963                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : rom_addr[9]/opit_0_inv_AQ_perm/CLK
+Endpoint    : u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/ADDRA[12]
+Path Group  : ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+Path Type   : max (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.063  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.590
+  Launch Clock Delay      :  2.688
+  Clock Pessimism Removal :  0.035
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (falling edge)
+                                                       500.000     500.000 f                        
+ PLL_158_55/CLK_OUT0                                     0.000     500.000 f       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.078     501.078         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000     501.078 f       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        1.610     502.688         ntclkbufg_0      
+ CLMA_138_21/CLK                                                           f       rom_addr[9]/opit_0_inv_AQ_perm/CLK
+
+ CLMA_138_21/Q0                    tco                   0.318     503.006 r       rom_addr[9]/opit_0_inv_AQ_perm/Q
+                                   net (fanout=4)        0.548     503.554         rom_addr[9]      
+ DRM_142_4/ADA0[12]                                                        r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/ADDRA[12]
+
+ Data arrival time                                                 503.554         Logic Levels: 0  
+                                                                                   Logic: 0.318ns(36.721%), Route: 0.548ns(63.279%)
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.059    1001.059         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000    1001.059 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        1.531    1002.590         ntclkbufg_0      
+ DRM_142_4/CLKA[0]                                                         r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+ clock pessimism                                         0.035    1002.625                          
+ clock uncertainty                                      -0.150    1002.475                          
+
+ Setup time                                              0.119    1002.594                          
+
+ Data required time                                               1002.594                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1002.594                          
+ Data arrival time                                                 503.554                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       499.040                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : rom_addr[0]/opit_0_inv_L5Q_perm/CLK
+Endpoint    : rom_addr[2]/opit_0_inv_A2Q21/I00
+Path Group  : ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.033  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.688
+  Launch Clock Delay      :  2.611
+  Clock Pessimism Removal :  -0.044
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (falling edge)
+                                                       500.000     500.000 f                        
+ PLL_158_55/CLK_OUT0                                     0.000     500.000 f       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.059     501.059         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000     501.059 f       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        1.552     502.611         ntclkbufg_0      
+ CLMA_138_12/CLK                                                           f       rom_addr[0]/opit_0_inv_L5Q_perm/CLK
+
+ CLMA_138_12/Q0                    tco                   0.222     502.833 f       rom_addr[0]/opit_0_inv_L5Q_perm/Q
+                                   net (fanout=6)        0.088     502.921         rom_addr[0]      
+ CLMA_138_13/A0                                                            f       rom_addr[2]/opit_0_inv_A2Q21/I00
+
+ Data arrival time                                                 502.921         Logic Levels: 0  
+                                                                                   Logic: 0.222ns(71.613%), Route: 0.088ns(28.387%)
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (falling edge)
+                                                       500.000     500.000 f                        
+ PLL_158_55/CLK_OUT0                                     0.000     500.000 f       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.078     501.078         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000     501.078 f       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        1.610     502.688         ntclkbufg_0      
+ CLMA_138_13/CLK                                                           f       rom_addr[2]/opit_0_inv_A2Q21/CLK
+ clock pessimism                                        -0.044     502.644                          
+ clock uncertainty                                       0.000     502.644                          
+
+ Hold time                                              -0.074     502.570                          
+
+ Data required time                                                502.570                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                502.570                          
+ Data arrival time                                                 502.921                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.351                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : rom_addr[6]/opit_0_inv_A2Q21/CLK
+Endpoint    : rom_addr[6]/opit_0_inv_A2Q21/I01
+Path Group  : ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.000  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.688
+  Launch Clock Delay      :  2.611
+  Clock Pessimism Removal :  -0.077
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (falling edge)
+                                                       500.000     500.000 f                        
+ PLL_158_55/CLK_OUT0                                     0.000     500.000 f       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.059     501.059         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000     501.059 f       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        1.552     502.611         ntclkbufg_0      
+ CLMA_138_17/CLK                                                           f       rom_addr[6]/opit_0_inv_A2Q21/CLK
+
+ CLMA_138_17/Q0                    tco                   0.222     502.833 f       rom_addr[6]/opit_0_inv_A2Q21/Q0
+                                   net (fanout=4)        0.086     502.919         rom_addr[5]      
+ CLMA_138_17/A1                                                            f       rom_addr[6]/opit_0_inv_A2Q21/I01
+
+ Data arrival time                                                 502.919         Logic Levels: 0  
+                                                                                   Logic: 0.222ns(72.078%), Route: 0.086ns(27.922%)
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (falling edge)
+                                                       500.000     500.000 f                        
+ PLL_158_55/CLK_OUT0                                     0.000     500.000 f       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.078     501.078         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000     501.078 f       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        1.610     502.688         ntclkbufg_0      
+ CLMA_138_17/CLK                                                           f       rom_addr[6]/opit_0_inv_A2Q21/CLK
+ clock pessimism                                        -0.077     502.611                          
+ clock uncertainty                                       0.000     502.611                          
+
+ Hold time                                              -0.100     502.511                          
+
+ Data required time                                                502.511                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                502.511                          
+ Data arrival time                                                 502.919                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.408                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : rom_addr[0]/opit_0_inv_L5Q_perm/CLK
+Endpoint    : rom_addr[0]/opit_0_inv_L5Q_perm/L1
+Path Group  : ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.000  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.688
+  Launch Clock Delay      :  2.611
+  Clock Pessimism Removal :  -0.077
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (falling edge)
+                                                       500.000     500.000 f                        
+ PLL_158_55/CLK_OUT0                                     0.000     500.000 f       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.059     501.059         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000     501.059 f       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        1.552     502.611         ntclkbufg_0      
+ CLMA_138_12/CLK                                                           f       rom_addr[0]/opit_0_inv_L5Q_perm/CLK
+
+ CLMA_138_12/Q0                    tco                   0.222     502.833 f       rom_addr[0]/opit_0_inv_L5Q_perm/Q
+                                   net (fanout=6)        0.088     502.921         rom_addr[0]      
+ CLMA_138_12/A1                                                            f       rom_addr[0]/opit_0_inv_L5Q_perm/L1
+
+ Data arrival time                                                 502.921         Logic Levels: 0  
+                                                                                   Logic: 0.222ns(71.613%), Route: 0.088ns(28.387%)
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (falling edge)
+                                                       500.000     500.000 f                        
+ PLL_158_55/CLK_OUT0                                     0.000     500.000 f       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.078     501.078         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000     501.078 f       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        1.610     502.688         ntclkbufg_0      
+ CLMA_138_12/CLK                                                           f       rom_addr[0]/opit_0_inv_L5Q_perm/CLK
+ clock pessimism                                        -0.077     502.611                          
+ clock uncertainty                                       0.000     502.611                          
+
+ Hold time                                              -0.100     502.511                          
+
+ Data required time                                                502.511                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                502.511                          
+ Data arrival time                                                 502.921                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.410                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+Endpoint    : da_data[7] (port)
+Path Group  : **default**
+Path Type   : max (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.078       1.078         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000       1.078 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        1.585       2.663         ntclkbufg_0      
+ DRM_142_4/CLKA[0]                                                         r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+
+ DRM_142_4/QA0[7]                  tco                   2.351       5.014 f       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/DOA[7]
+                                   net (fanout=1)        0.714       5.728         nt_da_data[7]    
+ IOL_167_5/DO                      td                    0.139       5.867 f       da_data_obuf[7]/opit_1/O
+                                   net (fanout=1)        0.000       5.867         da_data_obuf[7]/ntO
+ IOBS_TB_164_0/PAD                 td                    3.853       9.720 f       da_data_obuf[7]/opit_0/O
+                                   net (fanout=1)        0.081       9.801         da_data[7]       
+ AB13                                                                      f       da_data[7] (port)
+
+ Data arrival time                                                   9.801         Logic Levels: 2  
+                                                                                   Logic: 6.343ns(88.862%), Route: 0.795ns(11.138%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+Endpoint    : da_data[6] (port)
+Path Group  : **default**
+Path Type   : max (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.078       1.078         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000       1.078 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        1.585       2.663         ntclkbufg_0      
+ DRM_142_4/CLKA[0]                                                         r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+
+ DRM_142_4/QA0[6]                  tco                   2.351       5.014 f       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/DOA[6]
+                                   net (fanout=1)        0.591       5.605         nt_da_data[6]    
+ IOL_167_6/DO                      td                    0.139       5.744 f       da_data_obuf[6]/opit_1/O
+                                   net (fanout=1)        0.000       5.744         da_data_obuf[6]/ntO
+ IOBD_165_0/PAD                    td                    3.853       9.597 f       da_data_obuf[6]/opit_0/O
+                                   net (fanout=1)        0.081       9.678         da_data[6]       
+ Y13                                                                       f       da_data[6] (port)
+
+ Data arrival time                                                   9.678         Logic Levels: 2  
+                                                                                   Logic: 6.343ns(90.421%), Route: 0.672ns(9.579%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+Endpoint    : da_data[4] (port)
+Path Group  : **default**
+Path Type   : max (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.078       1.078         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000       1.078 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        1.585       2.663         ntclkbufg_0      
+ DRM_142_4/CLKA[0]                                                         r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+
+ DRM_142_4/QA0[4]                  tco                   2.351       5.014 f       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/DOA[4]
+                                   net (fanout=1)        0.522       5.536         nt_da_data[4]    
+ IOL_159_6/DO                      td                    0.139       5.675 f       da_data_obuf[4]/opit_1/O
+                                   net (fanout=1)        0.000       5.675         da_data_obuf[4]/ntO
+ IOBD_157_0/PAD                    td                    3.853       9.528 f       da_data_obuf[4]/opit_0/O
+                                   net (fanout=1)        0.078       9.606         da_data[4]       
+ Y11                                                                       f       da_data[4] (port)
+
+ Data arrival time                                                   9.606         Logic Levels: 2  
+                                                                                   Logic: 6.343ns(91.358%), Route: 0.600ns(8.642%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+Endpoint    : da_data[3] (port)
+Path Group  : **default**
+Path Type   : min (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.059       1.059         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000       1.059 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        1.531       2.590         ntclkbufg_0      
+ DRM_142_4/CLKA[0]                                                         r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+
+ DRM_142_4/QA0[3]                  tco                   1.572       4.162 r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/DOA[3]
+                                   net (fanout=1)        0.423       4.585         nt_da_data[3]    
+ IOL_135_5/DO                      td                    0.087       4.672 r       da_data_obuf[3]/opit_1/O
+                                   net (fanout=1)        0.000       4.672         da_data_obuf[3]/ntO
+ IOBS_TB_132_0/PAD                 td                    3.169       7.841 r       da_data_obuf[3]/opit_0/O
+                                   net (fanout=1)        0.041       7.882         da_data[3]       
+ W11                                                                       r       da_data[3] (port)
+
+ Data arrival time                                                   7.882         Logic Levels: 2  
+                                                                                   Logic: 4.828ns(91.232%), Route: 0.464ns(8.768%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+Endpoint    : da_data[2] (port)
+Path Group  : **default**
+Path Type   : min (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.059       1.059         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000       1.059 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        1.531       2.590         ntclkbufg_0      
+ DRM_142_4/CLKA[0]                                                         r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+
+ DRM_142_4/QA0[2]                  tco                   1.572       4.162 r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/DOA[2]
+                                   net (fanout=1)        0.422       4.584         nt_da_data[2]    
+ IOL_135_6/DO                      td                    0.087       4.671 r       da_data_obuf[2]/opit_1/O
+                                   net (fanout=1)        0.000       4.671         da_data_obuf[2]/ntO
+ IOBD_133_0/PAD                    td                    3.169       7.840 r       da_data_obuf[2]/opit_0/O
+                                   net (fanout=1)        0.053       7.893         da_data[2]       
+ V11                                                                       r       da_data[2] (port)
+
+ Data arrival time                                                   7.893         Logic Levels: 2  
+                                                                                   Logic: 4.828ns(91.043%), Route: 0.475ns(8.957%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+Endpoint    : da_data[1] (port)
+Path Group  : **default**
+Path Type   : min (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        1.059       1.059         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000       1.059 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        1.531       2.590         ntclkbufg_0      
+ DRM_142_4/CLKA[0]                                                         r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+
+ DRM_142_4/QA0[1]                  tco                   1.572       4.162 r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/DOA[1]
+                                   net (fanout=1)        0.431       4.593         nt_da_data[1]    
+ IOL_151_5/DO                      td                    0.087       4.680 r       da_data_obuf[1]/opit_1/O
+                                   net (fanout=1)        0.000       4.680         da_data_obuf[1]/ntO
+ IOBR_TB_148_0/PAD                 td                    3.169       7.849 r       da_data_obuf[1]/opit_0/O
+                                   net (fanout=1)        0.063       7.912         da_data[1]       
+ AB10                                                                      r       da_data[1] (port)
+
+ Data arrival time                                                   7.912         Logic Levels: 2  
+                                                                                   Logic: 4.828ns(90.718%), Route: 0.494ns(9.282%)
+====================================================================================================
+
+{ad_clock_125m|u_pll/u_pll_e3/CLKOUT0} Minimum Pulse Width :
+****************************************************************************************************
+ Slack       Actual Width    Require Width   Type              Location                Pin          
+----------------------------------------------------------------------------------------------------
+ 499.102     500.000         0.898           Low Pulse Width   DRM_142_4/CLKA[0]       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+ 499.102     500.000         0.898           High Pulse Width  DRM_142_4/CLKA[0]       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+ 499.102     500.000         0.898           Low Pulse Width   DRM_142_4/CLKB[0]       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKB
+====================================================================================================
+
+====================================================================================================
+Fast Corner
+****************************************************************************************************
+====================================================================================================
+
+Startpoint  : rom_addr[9]/opit_0_inv_AQ_perm/CLK
+Endpoint    : u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/ADDRB[12]
+Path Group  : ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+Path Type   : max (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.043  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.498
+  Launch Clock Delay      :  1.558
+  Clock Pessimism Removal :  0.017
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (falling edge)
+                                                       500.000     500.000 f                        
+ PLL_158_55/CLK_OUT0                                     0.000     500.000 f       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.608     500.608         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000     500.608 f       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        0.950     501.558         ntclkbufg_0      
+ CLMA_138_21/CLK                                                           f       rom_addr[9]/opit_0_inv_AQ_perm/CLK
+
+ CLMA_138_21/Q0                    tco                   0.221     501.779 f       rom_addr[9]/opit_0_inv_AQ_perm/Q
+                                   net (fanout=4)        0.367     502.146         rom_addr[9]      
+ DRM_142_4/ADB0[12]                                                        f       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/ADDRB[12]
+
+ Data arrival time                                                 502.146         Logic Levels: 0  
+                                                                                   Logic: 0.221ns(37.585%), Route: 0.367ns(62.415%)
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.603    1000.603         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000    1000.603 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        0.895    1001.498         ntclkbufg_0      
+ DRM_142_4/CLKB[0]                                                         r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKB
+ clock pessimism                                         0.017    1001.515                          
+ clock uncertainty                                      -0.150    1001.365                          
+
+ Setup time                                             -0.027    1001.338                          
+
+ Data required time                                               1001.338                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1001.338                          
+ Data arrival time                                                 502.146                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       499.192                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : rom_addr[4]/opit_0_inv_A2Q21/CLK
+Endpoint    : u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/ADDRB[7]
+Path Group  : ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+Path Type   : max (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.043  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.498
+  Launch Clock Delay      :  1.558
+  Clock Pessimism Removal :  0.017
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (falling edge)
+                                                       500.000     500.000 f                        
+ PLL_158_55/CLK_OUT0                                     0.000     500.000 f       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.608     500.608         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000     500.608 f       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        0.950     501.558         ntclkbufg_0      
+ CLMA_138_13/CLK                                                           f       rom_addr[4]/opit_0_inv_A2Q21/CLK
+
+ CLMA_138_13/Q3                    tco                   0.220     501.778 f       rom_addr[4]/opit_0_inv_A2Q21/Q1
+                                   net (fanout=4)        0.334     502.112         rom_addr[4]      
+ DRM_142_4/ADB0[7]                                                         f       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/ADDRB[7]
+
+ Data arrival time                                                 502.112         Logic Levels: 0  
+                                                                                   Logic: 0.220ns(39.711%), Route: 0.334ns(60.289%)
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.603    1000.603         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000    1000.603 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        0.895    1001.498         ntclkbufg_0      
+ DRM_142_4/CLKB[0]                                                         r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKB
+ clock pessimism                                         0.017    1001.515                          
+ clock uncertainty                                      -0.150    1001.365                          
+
+ Setup time                                             -0.027    1001.338                          
+
+ Data required time                                               1001.338                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1001.338                          
+ Data arrival time                                                 502.112                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       499.226                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : rom_addr[4]/opit_0_inv_A2Q21/CLK
+Endpoint    : u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/ADDRB[6]
+Path Group  : ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+Path Type   : max (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.043  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.498
+  Launch Clock Delay      :  1.558
+  Clock Pessimism Removal :  0.017
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (falling edge)
+                                                       500.000     500.000 f                        
+ PLL_158_55/CLK_OUT0                                     0.000     500.000 f       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.608     500.608         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000     500.608 f       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        0.950     501.558         ntclkbufg_0      
+ CLMA_138_13/CLK                                                           f       rom_addr[4]/opit_0_inv_A2Q21/CLK
+
+ CLMA_138_13/Q2                    tco                   0.223     501.781 f       rom_addr[4]/opit_0_inv_A2Q21/Q0
+                                   net (fanout=4)        0.268     502.049         rom_addr[3]      
+ DRM_142_4/ADB0[6]                                                         f       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/ADDRB[6]
+
+ Data arrival time                                                 502.049         Logic Levels: 0  
+                                                                                   Logic: 0.223ns(45.418%), Route: 0.268ns(54.582%)
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.603    1000.603         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000    1000.603 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        0.895    1001.498         ntclkbufg_0      
+ DRM_142_4/CLKB[0]                                                         r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKB
+ clock pessimism                                         0.017    1001.515                          
+ clock uncertainty                                      -0.150    1001.365                          
+
+ Setup time                                             -0.027    1001.338                          
+
+ Data required time                                               1001.338                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1001.338                          
+ Data arrival time                                                 502.049                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       499.289                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : rom_addr[0]/opit_0_inv_L5Q_perm/CLK
+Endpoint    : rom_addr[2]/opit_0_inv_A2Q21/I00
+Path Group  : ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+Path Type   : min (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.017  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.558
+  Launch Clock Delay      :  1.515
+  Clock Pessimism Removal :  -0.026
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (falling edge)
+                                                       500.000     500.000 f                        
+ PLL_158_55/CLK_OUT0                                     0.000     500.000 f       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.597     500.597         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000     500.597 f       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        0.918     501.515         ntclkbufg_0      
+ CLMA_138_12/CLK                                                           f       rom_addr[0]/opit_0_inv_L5Q_perm/CLK
+
+ CLMA_138_12/Q0                    tco                   0.179     501.694 f       rom_addr[0]/opit_0_inv_L5Q_perm/Q
+                                   net (fanout=6)        0.062     501.756         rom_addr[0]      
+ CLMA_138_13/A0                                                            f       rom_addr[2]/opit_0_inv_A2Q21/I00
+
+ Data arrival time                                                 501.756         Logic Levels: 0  
+                                                                                   Logic: 0.179ns(74.274%), Route: 0.062ns(25.726%)
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (falling edge)
+                                                       500.000     500.000 f                        
+ PLL_158_55/CLK_OUT0                                     0.000     500.000 f       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.608     500.608         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000     500.608 f       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        0.950     501.558         ntclkbufg_0      
+ CLMA_138_13/CLK                                                           f       rom_addr[2]/opit_0_inv_A2Q21/CLK
+ clock pessimism                                        -0.026     501.532                          
+ clock uncertainty                                       0.000     501.532                          
+
+ Hold time                                              -0.061     501.471                          
+
+ Data required time                                                501.471                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                501.471                          
+ Data arrival time                                                 501.756                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.285                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : rom_addr[6]/opit_0_inv_A2Q21/CLK
+Endpoint    : rom_addr[6]/opit_0_inv_A2Q21/I01
+Path Group  : ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+Path Type   : min (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.000  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.558
+  Launch Clock Delay      :  1.515
+  Clock Pessimism Removal :  -0.043
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (falling edge)
+                                                       500.000     500.000 f                        
+ PLL_158_55/CLK_OUT0                                     0.000     500.000 f       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.597     500.597         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000     500.597 f       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        0.918     501.515         ntclkbufg_0      
+ CLMA_138_17/CLK                                                           f       rom_addr[6]/opit_0_inv_A2Q21/CLK
+
+ CLMA_138_17/Q0                    tco                   0.179     501.694 f       rom_addr[6]/opit_0_inv_A2Q21/Q0
+                                   net (fanout=4)        0.059     501.753         rom_addr[5]      
+ CLMA_138_17/A1                                                            f       rom_addr[6]/opit_0_inv_A2Q21/I01
+
+ Data arrival time                                                 501.753         Logic Levels: 0  
+                                                                                   Logic: 0.179ns(75.210%), Route: 0.059ns(24.790%)
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (falling edge)
+                                                       500.000     500.000 f                        
+ PLL_158_55/CLK_OUT0                                     0.000     500.000 f       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.608     500.608         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000     500.608 f       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        0.950     501.558         ntclkbufg_0      
+ CLMA_138_17/CLK                                                           f       rom_addr[6]/opit_0_inv_A2Q21/CLK
+ clock pessimism                                        -0.043     501.515                          
+ clock uncertainty                                       0.000     501.515                          
+
+ Hold time                                              -0.083     501.432                          
+
+ Data required time                                                501.432                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                501.432                          
+ Data arrival time                                                 501.753                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.321                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : rom_addr[0]/opit_0_inv_L5Q_perm/CLK
+Endpoint    : rom_addr[0]/opit_0_inv_L5Q_perm/L1
+Path Group  : ad_clock_125m|u_pll/u_pll_e3/CLKOUT0
+Path Type   : min (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.000  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.558
+  Launch Clock Delay      :  1.515
+  Clock Pessimism Removal :  -0.043
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (falling edge)
+                                                       500.000     500.000 f                        
+ PLL_158_55/CLK_OUT0                                     0.000     500.000 f       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.597     500.597         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000     500.597 f       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        0.918     501.515         ntclkbufg_0      
+ CLMA_138_12/CLK                                                           f       rom_addr[0]/opit_0_inv_L5Q_perm/CLK
+
+ CLMA_138_12/Q0                    tco                   0.179     501.694 f       rom_addr[0]/opit_0_inv_L5Q_perm/Q
+                                   net (fanout=6)        0.062     501.756         rom_addr[0]      
+ CLMA_138_12/A1                                                            f       rom_addr[0]/opit_0_inv_L5Q_perm/L1
+
+ Data arrival time                                                 501.756         Logic Levels: 0  
+                                                                                   Logic: 0.179ns(74.274%), Route: 0.062ns(25.726%)
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (falling edge)
+                                                       500.000     500.000 f                        
+ PLL_158_55/CLK_OUT0                                     0.000     500.000 f       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.608     500.608         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000     500.608 f       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        0.950     501.558         ntclkbufg_0      
+ CLMA_138_12/CLK                                                           f       rom_addr[0]/opit_0_inv_L5Q_perm/CLK
+ clock pessimism                                        -0.043     501.515                          
+ clock uncertainty                                       0.000     501.515                          
+
+ Hold time                                              -0.083     501.432                          
+
+ Data required time                                                501.432                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                501.432                          
+ Data arrival time                                                 501.756                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.324                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+Endpoint    : da_data[7] (port)
+Path Group  : **default**
+Path Type   : max (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.614       0.614         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000       0.614 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        0.925       1.539         ntclkbufg_0      
+ DRM_142_4/CLKA[0]                                                         r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+
+ DRM_142_4/QA0[7]                  tco                   1.815       3.354 f       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/DOA[7]
+                                   net (fanout=1)        0.475       3.829         nt_da_data[7]    
+ IOL_167_5/DO                      td                    0.106       3.935 f       da_data_obuf[7]/opit_1/O
+                                   net (fanout=1)        0.000       3.935         da_data_obuf[7]/ntO
+ IOBS_TB_164_0/PAD                 td                    3.238       7.173 f       da_data_obuf[7]/opit_0/O
+                                   net (fanout=1)        0.081       7.254         da_data[7]       
+ AB13                                                                      f       da_data[7] (port)
+
+ Data arrival time                                                   7.254         Logic Levels: 2  
+                                                                                   Logic: 5.159ns(90.271%), Route: 0.556ns(9.729%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+Endpoint    : da_data[6] (port)
+Path Group  : **default**
+Path Type   : max (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.614       0.614         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000       0.614 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        0.925       1.539         ntclkbufg_0      
+ DRM_142_4/CLKA[0]                                                         r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+
+ DRM_142_4/QA0[6]                  tco                   1.799       3.338 r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/DOA[6]
+                                   net (fanout=1)        0.369       3.707         nt_da_data[6]    
+ IOL_167_6/DO                      td                    0.112       3.819 r       da_data_obuf[6]/opit_1/O
+                                   net (fanout=1)        0.000       3.819         da_data_obuf[6]/ntO
+ IOBD_165_0/PAD                    td                    3.275       7.094 r       da_data_obuf[6]/opit_0/O
+                                   net (fanout=1)        0.081       7.175         da_data[6]       
+ Y13                                                                       r       da_data[6] (port)
+
+ Data arrival time                                                   7.175         Logic Levels: 2  
+                                                                                   Logic: 5.186ns(92.016%), Route: 0.450ns(7.984%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+Endpoint    : da_data[0] (port)
+Path Group  : **default**
+Path Type   : max (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.614       0.614         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000       0.614 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        0.925       1.539         ntclkbufg_0      
+ DRM_142_4/CLKA[0]                                                         r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+
+ DRM_142_4/QA0[0]                  tco                   1.799       3.338 r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/DOA[0]
+                                   net (fanout=1)        0.317       3.655         nt_da_data[0]    
+ IOL_151_6/DO                      td                    0.112       3.767 r       da_data_obuf[0]/opit_1/O
+                                   net (fanout=1)        0.000       3.767         da_data_obuf[0]/ntO
+ IOBD_149_0/PAD                    td                    3.275       7.042 r       da_data_obuf[0]/opit_0/O
+                                   net (fanout=1)        0.080       7.122         da_data[0]       
+ AA10                                                                      r       da_data[0] (port)
+
+ Data arrival time                                                   7.122         Logic Levels: 2  
+                                                                                   Logic: 5.186ns(92.889%), Route: 0.397ns(7.111%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : clk_50M (port)
+Endpoint    : da_clk (port)
+Path Group  : **default**
+Path Type   : min (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ P20                                                     0.000       0.000 r       clk_50M (port)   
+                                   net (fanout=1)        0.074       0.074         clk_50M          
+ IOBS_LR_328_209/DIN               td                    0.735       0.809 r       clk_50M_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.809         clk_50M_ibuf/ntD 
+ IOL_327_210/INCK                  td                    0.038       0.847 r       clk_50M_ibuf/opit_1/INCK
+                                   net (fanout=1)        0.463       1.310         _N0              
+ PLL_158_55/CLK_OUT0               td                    0.078       1.388 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.603       1.991         nt_da_clk        
+ USCM_84_111/CLK_USCM              td                    0.000       1.991 r       USCMROUTE_0/CLKOUT
+                                   net (fanout=1)        1.002       2.993         ntR16            
+ IOL_123_6/DO                      td                    0.070       3.063 r       da_clk_obuf/opit_1/O
+                                   net (fanout=1)        0.000       3.063         da_clk_obuf/ntO  
+ IOBD_121_0/PAD                    td                    2.797       5.860 r       da_clk_obuf/opit_0/O
+                                   net (fanout=1)        0.050       5.910         da_clk           
+ W10                                                                       r       da_clk (port)    
+
+ Data arrival time                                                   5.910         Logic Levels: 6  
+                                                                                   Logic: 3.718ns(62.910%), Route: 2.192ns(37.090%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+Endpoint    : da_data[3] (port)
+Path Group  : **default**
+Path Type   : min (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.603       0.603         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000       0.603 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        0.895       1.498         ntclkbufg_0      
+ DRM_142_4/CLKA[0]                                                         r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+
+ DRM_142_4/QA0[3]                  tco                   1.263       2.761 r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/DOA[3]
+                                   net (fanout=1)        0.251       3.012         nt_da_data[3]    
+ IOL_135_5/DO                      td                    0.070       3.082 r       da_data_obuf[3]/opit_1/O
+                                   net (fanout=1)        0.000       3.082         da_data_obuf[3]/ntO
+ IOBS_TB_132_0/PAD                 td                    2.797       5.879 r       da_data_obuf[3]/opit_0/O
+                                   net (fanout=1)        0.041       5.920         da_data[3]       
+ W11                                                                       r       da_data[3] (port)
+
+ Data arrival time                                                   5.920         Logic Levels: 2  
+                                                                                   Logic: 4.130ns(93.397%), Route: 0.292ns(6.603%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+Endpoint    : da_data[2] (port)
+Path Group  : **default**
+Path Type   : min (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock ad_clock_125m|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=2)        0.603       0.603         nt_da_clk        
+ USCM_84_108/CLK_USCM              td                    0.000       0.603 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=8)        0.895       1.498         ntclkbufg_0      
+ DRM_142_4/CLKA[0]                                                         r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+
+ DRM_142_4/QA0[2]                  tco                   1.263       2.761 r       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/DOA[2]
+                                   net (fanout=1)        0.251       3.012         nt_da_data[2]    
+ IOL_135_6/DO                      td                    0.070       3.082 r       da_data_obuf[2]/opit_1/O
+                                   net (fanout=1)        0.000       3.082         da_data_obuf[2]/ntO
+ IOBD_133_0/PAD                    td                    2.797       5.879 r       da_data_obuf[2]/opit_0/O
+                                   net (fanout=1)        0.053       5.932         da_data[2]       
+ V11                                                                       r       da_data[2] (port)
+
+ Data arrival time                                                   5.932         Logic Levels: 2  
+                                                                                   Logic: 4.130ns(93.144%), Route: 0.304ns(6.856%)
+====================================================================================================
+
+{ad_clock_125m|u_pll/u_pll_e3/CLKOUT0} Minimum Pulse Width :
+****************************************************************************************************
+ Slack       Actual Width    Require Width   Type              Location                Pin          
+----------------------------------------------------------------------------------------------------
+ 499.282     500.000         0.718           Low Pulse Width   DRM_142_4/CLKA[0]       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+ 499.282     500.000         0.718           High Pulse Width  DRM_142_4/CLKA[0]       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKA
+ 499.282     500.000         0.718           Low Pulse Width   DRM_142_4/CLKB[0]       u_rom/U_ipml_rom_rom_square_wave/U_ipml_spram_rom_square_wave/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm/CLKB
+====================================================================================================
+
+====================================================================================================
+
+Inputs and Outputs :
++---------------------------------------------------------------------------------------------------+
+| Type       | File Name                                                                           
++---------------------------------------------------------------------------------------------------+
+| Input      | D:/admin/desktop/AD_DA_50H/AD9708_square_wave/place_route/square_wave_pnr.adf       
+| Output     | D:/admin/desktop/AD_DA_50H/AD9708_square_wave/report_timing/square_wave_rtp.adf     
+|            | D:/admin/desktop/AD_DA_50H/AD9708_square_wave/report_timing/square_wave.rtr         
+|            | D:/admin/desktop/AD_DA_50H/AD9708_square_wave/report_timing/rtr.db                  
++---------------------------------------------------------------------------------------------------+
+
+
+Flow Command: report_timing 
+Peak memory: 701 MB
+Total CPU  time to report_timing completion : 0h:0m:4s
+Process Total CPU  time to report_timing completion : 0h:0m:4s
+Total real time to report_timing completion : 0h:0m:7s

@@ -1,0 +1,599 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/sim/synth
+vad9708_sin_wave
+Z1 !s110 1730039705
+!i10b 1
+!s100 ;zSe:1=S:N1UOWh=911Sf2
+I[ji6GCWiW;nR@kZ=U;jmE1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1730038442
+Z4 8ad_da_hdmi_top_syn.vm
+Z5 Fad_da_hdmi_top_syn.vm
+L0 291
+Z6 OL;L;10.5;63
+r1
+!s85 0
+31
+Z7 !s108 1730039705.000000
+Z8 !s107 ad_da_hdmi_top_syn.vm|
+Z9 !s90 -reportprogress|300|ad_da_hdmi_top_syn.vm|-work|work|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+vad_da_hdmi_top
+R1
+!i10b 1
+!s100 `M[R?bZ33INAFb]KW=3<X1
+Ie2NJl>J70Mlf]H]Q0Zd143
+R2
+R0
+R3
+R4
+R5
+L0 14806
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vgrid_display
+R1
+!i10b 1
+!s100 08WjRRm:TAPGNo`kTJGBY0
+IjV>60Y_DEb<C5l7NNGmB_2
+R2
+R0
+R3
+R4
+R5
+L0 1155
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vhdmi_test
+R1
+!i10b 1
+!s100 ZXhLBWz=3Cz3b@Cd0`9461
+I0k[o7G`Gb7SU=z5PQFVZ:1
+R2
+R0
+R3
+R4
+R5
+L0 9280
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+viic_dri
+R1
+!i10b 1
+!s100 :FeIAV;X;E_jME[EJL15>0
+IU3@1f4M1X_XMmH:0Eo`W00
+R2
+R0
+R3
+R4
+R5
+L0 1897
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+viic_dri_unq4
+R1
+!i10b 1
+!s100 GM7oABeWQL4PzH>m<;]dR0
+I6PdTAfR`66E;J15`lb2Wi3
+R2
+R0
+R3
+R4
+R5
+L0 3186
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vipml_rom_v1_5_rom_sawtooth_wave
+R1
+!i10b 1
+!s100 >KX`OPk14F7g68>L2nFe:0
+IicMLH=]2RYMn@;=fM^W_93
+R2
+R0
+R3
+R4
+R5
+L0 91
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vipml_rom_v1_5_rom_sin_wave
+R1
+!i10b 1
+!s100 SZ4HYYa3j_KYU:mMS<fid1
+IUK<I8?Kh62hNE3g4nMTRc2
+R2
+R0
+R3
+R4
+R5
+L0 253
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vipml_sdpram_v1_6_ram1024x8
+R1
+!i10b 1
+!s100 cf;bLKCcz5TGCdCT3T6Zl3
+I>jfmfd=G:[?ZEKD?^fRzY0
+R2
+R0
+R3
+R4
+R5
+L0 12129
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vipml_spram_v1_5_rom_sawtooth_wave
+R1
+!i10b 1
+!s100 2jO8JNF]jkRzUNezDmlHA0
+ISAU_O:gDW1=V1Ilo4^ZjS2
+R2
+R0
+R3
+R4
+R5
+L0 5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vipml_spram_v1_5_rom_sin_wave
+R1
+!i10b 1
+!s100 3^kM18lnH7Zd<Ao47nga30
+IJN]2f?l1GnJ>LWcfi0jh<0
+R2
+R0
+R3
+R4
+R5
+L0 129
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vKey_Debounce
+R1
+!i10b 1
+!s100 HdSdM`8S9Wn`e;eKd8FZH2
+I_;I<iRcz;H]aga5?CRoV33
+R2
+R0
+R3
+R4
+R5
+L0 9546
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n@key_@debounce
+vKey_Debounce_unq4
+R1
+!i10b 1
+!s100 WT=dmzlzzCDb<LidnmTTS1
+IP1NSgMWN3nEQcJ<ihVDV>0
+R2
+R0
+R3
+R4
+R5
+L0 10313
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n@key_@debounce_unq4
+vms7200_ctl
+R1
+!i10b 1
+!s100 TB1Nj[K?1fF?^BmhnI1YS3
+I]ejWDQ?z?BAV=MbN1;B1Y0
+R2
+R0
+R3
+R4
+R5
+L0 4756
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vms7210_ctl
+R1
+!i10b 1
+!s100 nCkCo>Q2Rm;`Zi[LiI1LI2
+IWokN??CNJ9>:nLYBNhz@<2
+R2
+R0
+R3
+R4
+R5
+L0 5819
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vms72xx_ctl
+R1
+!i10b 1
+!s100 4V6WQaUNan4czZ^am1]`03
+Im0LVeKX4Ad[^e3H3mjU=F2
+R2
+R0
+R3
+R4
+R5
+L0 7869
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vpattern_vg
+R1
+!i10b 1
+!s100 4]HL:20IFeKR[I>4[i9XB0
+I4@78K6RKdQCQO_JX6YT4H0
+R2
+R0
+R3
+R4
+R5
+L0 8082
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vpll
+R1
+!i10b 1
+!s100 eeA4:EWKX`O2]@I5SnTYg2
+IH^n<fThGUhBh[zFVG7Dbb2
+R2
+R0
+R3
+R4
+R5
+L0 9151
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vpll_adda
+R1
+!i10b 1
+!s100 39h@fBmh1]S9^i`02nzUS0
+IcZWgZPe9BELQ?5A1]O5<K2
+R2
+R0
+R3
+R4
+R5
+L0 11080
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vram1024x8
+R1
+!i10b 1
+!s100 Q[eb5]@c83:h8mjceiOf03
+I16GXFZ@0nMg_PfN=kYbhA3
+R2
+R0
+R3
+R4
+R5
+L0 12297
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vrom_sawtooth_wave
+R1
+!i10b 1
+!s100 ^F9@dXUf`J0CiE[0m:V0M2
+I:4JHGk0[>G8IZDFEPjPkP1
+R2
+R0
+R3
+R4
+R5
+L0 110
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vrom_sin_wave
+R1
+!i10b 1
+!s100 @3b8XO7D;S>Cb@C2mznlS1
+IQ2?6E0n96LNzVHB?GhbHU1
+R2
+R0
+R3
+R4
+R5
+L0 272
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vsync_vg
+R1
+!i10b 1
+!s100 dR0WM7<84j`iifjQS?lB;3
+Ic_@6K85_3S`LnGCl?A^@J0
+R2
+R0
+R3
+R4
+R5
+L0 8126
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vtb_ctrl_test
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 JXkiNk[nnR6T259A^8U<G2
+IGIVdCcPShBLF3Db73l[P73
+R0
+w1730039684
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/tb_key_debounce.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/tb_key_debounce.v
+L0 2
+R6
+R7
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/tb_key_debounce.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/tb_key_debounce.v|-work|work|
+!i113 0
+R10
+R11
+vtb_hdmi
+R1
+!i10b 1
+!s100 Z;3lgo;DMRE7[EI@f;jKT1
+Ign7c8lo=:78`NgGl>D1^a2
+R2
+R0
+w1729687026
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/tb_hdmi.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/tb_hdmi.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/tb_hdmi.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/tb_hdmi.v|-work|work|
+!i113 0
+R10
+R11
+vtiming_gen_xy
+R1
+!i10b 1
+!s100 EEWiNWB2DWbDVH3]eAQVY3
+IFH_6c22>M]QZWem<;oYEH1
+R2
+R0
+R3
+R4
+R5
+L0 310
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vtiming_gen_xy_unq4
+R1
+!i10b 1
+!s100 _ZEk9@6f>KLn]XhPf4IJK1
+IN5F0RPI;ml816T1f33^lD1
+R2
+R0
+R3
+R4
+R5
+L0 11209
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vwav_display
+R1
+!i10b 1
+!s100 L^3?`XiYGiK0:a<bO9b?10
+Ia<66S;=;T:H4FQF5>jE??1
+R2
+R0
+R3
+R4
+R5
+L0 12334
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11

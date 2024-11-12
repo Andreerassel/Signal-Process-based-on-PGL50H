@@ -1,0 +1,124 @@
+# vsim -voptargs="+acc" -suppress 12110 work.ipsxe_fft_onboard_top_tb -l vsim.log 
+# Start time: 21:12:56 on Nov 02,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: ../../rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(849): (vopt-2685) [TFMPC] - Too few port connections for 'U_GTP_DRM18K'.  Expected 21, found 20.
+# ** Warning: ../../rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(849): (vopt-2718) [TFMPC] - Missing connection for port 'WWCONF'.
+# ** Warning: ../../rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(849): (vopt-2685) [TFMPC] - Too few port connections for 'U_GTP_DRM18K'.  Expected 21, found 20.
+# ** Warning: ../../rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(849): (vopt-2718) [TFMPC] - Missing connection for port 'WWCONF'.
+# ** Warning: ../../rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(510): (vopt-2576) [BSOB] - Bit-select into 'wr_addr_bus' is out of bounds.
+# ** Warning: ../../rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(520): (vopt-2576) [BSOB] - Bit-select into 'wr_addr_bus' is out of bounds.
+# ** Warning: ../../rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(532): (vopt-2576) [BSOB] - Bit-select into 'wr_addr_bus' is out of bounds.
+# ** Warning: ../../rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(542): (vopt-2576) [BSOB] - Bit-select into 'wr_addr_bus' is out of bounds.
+# ** Warning: ../../rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(547): (vopt-2576) [BSOB] - Bit-select into 'wr_addr_bus' is out of bounds.
+# ** Warning: ../../rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(548): (vopt-2576) [BSOB] - Bit-select into 'wr_addr_bus' is out of bounds.
+# ** Warning: ../../rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(705): (vopt-2576) [BSOB] - Bit-select into 'rd_addr_bus' is out of bounds.
+# ** Warning: ../../rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(710): (vopt-2576) [BSOB] - Bit-select into 'rd_addr_bus' is out of bounds.
+# ** Warning: ../../rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(715): (vopt-2576) [BSOB] - Bit-select into 'rd_addr_bus' is out of bounds.
+# ** Warning: ../../rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(727): (vopt-2576) [BSOB] - Bit-select into 'rd_addr_bus' is out of bounds.
+# ** Warning: ../../rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(742): (vopt-2576) [BSOB] - Bit-select into 'rd_addr_bus' is out of bounds.
+# ** Warning: ../../rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v(743): (vopt-2576) [BSOB] - Bit-select into 'rd_addr_bus' is out of bounds.
+# Loading sv_std.std
+# Loading work.ipsxe_fft_onboard_top_tb(fast)
+# Loading work.GTP_GRS(fast)
+# Loading work.ipsxe_fft_onboard_top(fast)
+# Loading work.ipsxe_fft_sync_arstn(fast)
+# Loading work.ipsxe_fft_frame_gen(fast)
+# Loading work.fft_demo_00(fast)
+# Loading work.ipsxe_fft_distram_sreg(fast)
+# Loading work.ipsxe_fft_distributed_shiftregister_v1_3(fast)
+# Loading work.ipsxe_fft_distributed_sdpram_v1_2(fast)
+# Loading work.ipsxe_fft_distram_sreg(fast__1)
+# Loading work.ipsxe_fft_distributed_shiftregister_v1_3(fast__1)
+# Loading work.ipsxe_fft_distributed_sdpram_v1_2(fast__1)
+# Loading work.ipsxe_fft_distram_sreg(fast__2)
+# Loading work.ipsxe_fft_distributed_shiftregister_v1_3(fast__2)
+# Loading work.ipsxe_fft_distributed_sdpram_v1_2(fast__2)
+# Loading work.ipsxe_fft_distram_sreg(fast__3)
+# Loading work.ipsxe_fft_distributed_shiftregister_v1_3(fast__3)
+# Loading work.ipsxe_fft_distributed_sdpram_v1_2(fast__3)
+# Loading work.ipsxe_fft_distram_sreg(fast__4)
+# Loading work.ipsxe_fft_distributed_shiftregister_v1_3(fast__4)
+# Loading work.ipsxe_fft_distram_sreg(fast__5)
+# Loading work.ipsxe_fft_distributed_shiftregister_v1_3(fast__5)
+# Loading work.ipsxe_fft_distributed_sdpram_v1_2(fast__4)
+# Loading work.ipsxe_fft_distram_sreg(fast__6)
+# Loading work.ipsxe_fft_distributed_shiftregister_v1_3(fast__6)
+# Loading work.ipsxe_fft_distributed_sdpram_v1_2(fast__5)
+# Loading work.GTP_APM_E1(fast__1)
+# Loading work.GTP_APM_E1(fast)
+# Loading work.ipsxe_fft_distram_sreg(fast__7)
+# Loading work.ipsxe_fft_distributed_shiftregister_v1_3(fast__7)
+# Loading work.ipsxe_fft_distributed_sdpram_v1_2(fast__6)
+# Loading work.ipsxe_fft_drm_sdpram_36k(fast)
+# Loading work.ipml_sdpram_v1_7_drm(fast)
+# Loading work.GTP_DRM18K(fast)
+# Loading work.GTP_DRM18K(fast__1)
+# Loading work.ipsxe_fft_frame_chk(fast)
+# Loading work.ipsxe_fft_exp_rom(fast)
+# Loading work.ipsxe_fft_exp_rom(fast__1)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Administrator  Hostname: WIN-N8QUUCFJHSN  ProcessID: 7340
+#           Attempting to use alternate WLF file "./wlft56yzc0".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft56yzc0
+# IPSpecCheck: 01030102 ipml_flex_sdpram parameter setting error !!!: c_WR_ADDR_WIDTH must between 8-20
+# IPSpecCheck: 01030102 ipml_flex_sdpram parameter setting error !!!: c_WR_ADDR_WIDTH must between 8-20
+# Simulation is failed.
+# ** Note: $finish    : ../../example_design/bench/ipsxe_fft_onboard_top_tb.sv(68)
+#    Time: 185530 ns  Iteration: 0  Instance: /ipsxe_fft_onboard_top_tb
+# 1
+# Break in Module ipsxe_fft_onboard_top_tb at ../../example_design/bench/ipsxe_fft_onboard_top_tb.sv line 68
+add wave -position insertpoint  \
+sim:/ipsxe_fft_onboard_top_tb/u_onboard_top/u_fft_frame_gen/wave_data \
+sim:/ipsxe_fft_onboard_top_tb/u_onboard_top/u_fft_frame_gen/data_re \
+sim:/ipsxe_fft_onboard_top_tb/u_onboard_top/u_fft_frame_gen/data_im
+run
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.ipsxe_fft_onboard_top_tb(fast)
+# Loading work.GTP_GRS(fast)
+# Loading work.ipsxe_fft_onboard_top(fast)
+# Loading work.ipsxe_fft_sync_arstn(fast)
+# Loading work.ipsxe_fft_frame_gen(fast)
+# Loading work.fft_demo_00(fast)
+# Loading work.ipsxe_fft_distram_sreg(fast)
+# Loading work.ipsxe_fft_distributed_shiftregister_v1_3(fast)
+# Loading work.ipsxe_fft_distributed_sdpram_v1_2(fast)
+# Loading work.ipsxe_fft_distram_sreg(fast__1)
+# Loading work.ipsxe_fft_distributed_shiftregister_v1_3(fast__1)
+# Loading work.ipsxe_fft_distributed_sdpram_v1_2(fast__1)
+# Loading work.ipsxe_fft_distram_sreg(fast__2)
+# Loading work.ipsxe_fft_distributed_shiftregister_v1_3(fast__2)
+# Loading work.ipsxe_fft_distributed_sdpram_v1_2(fast__2)
+# Loading work.ipsxe_fft_distram_sreg(fast__3)
+# Loading work.ipsxe_fft_distributed_shiftregister_v1_3(fast__3)
+# Loading work.ipsxe_fft_distributed_sdpram_v1_2(fast__3)
+# Loading work.ipsxe_fft_distram_sreg(fast__4)
+# Loading work.ipsxe_fft_distributed_shiftregister_v1_3(fast__4)
+# Loading work.ipsxe_fft_distram_sreg(fast__5)
+# Loading work.ipsxe_fft_distributed_shiftregister_v1_3(fast__5)
+# Loading work.ipsxe_fft_distributed_sdpram_v1_2(fast__4)
+# Loading work.ipsxe_fft_distram_sreg(fast__6)
+# Loading work.ipsxe_fft_distributed_shiftregister_v1_3(fast__6)
+# Loading work.ipsxe_fft_distributed_sdpram_v1_2(fast__5)
+# Loading work.GTP_APM_E1(fast__1)
+# Loading work.GTP_APM_E1(fast)
+# Loading work.ipsxe_fft_distram_sreg(fast__7)
+# Loading work.ipsxe_fft_distributed_shiftregister_v1_3(fast__7)
+# Loading work.ipsxe_fft_distributed_sdpram_v1_2(fast__6)
+# Loading work.ipsxe_fft_drm_sdpram_36k(fast)
+# Loading work.ipml_sdpram_v1_7_drm(fast)
+# Loading work.GTP_DRM18K(fast)
+# Loading work.GTP_DRM18K(fast__1)
+# Loading work.ipsxe_fft_frame_chk(fast)
+# Loading work.ipsxe_fft_exp_rom(fast)
+# Loading work.ipsxe_fft_exp_rom(fast__1)
+run -all
+# IPSpecCheck: 01030102 ipml_flex_sdpram parameter setting error !!!: c_WR_ADDR_WIDTH must between 8-20
+# IPSpecCheck: 01030102 ipml_flex_sdpram parameter setting error !!!: c_WR_ADDR_WIDTH must between 8-20
+# Simulation is failed.
+# ** Note: $finish    : ../../example_design/bench/ipsxe_fft_onboard_top_tb.sv(68)
+#    Time: 185530 ns  Iteration: 0  Instance: /ipsxe_fft_onboard_top_tb
+# 1
+# Break in Module ipsxe_fft_onboard_top_tb at ../../example_design/bench/ipsxe_fft_onboard_top_tb.sv line 68
+# Causality operation skipped due to absence of debug database file

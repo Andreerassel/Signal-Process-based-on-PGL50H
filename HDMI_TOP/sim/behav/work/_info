@@ -1,0 +1,579 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/sim/behav
+vad9708_sin_wave
+Z1 !s110 1730039879
+!i10b 1
+!s100 FD?YV3mIHjg2TL8Hcm7li3
+IHYb556oZl]d<mNbM]T]ee0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1730019143
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ad9708_sin_wave.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ad9708_sin_wave.v
+L0 1
+Z3 OL;L;10.5;63
+r1
+!s85 0
+31
+Z4 !s108 1730039879.000000
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ad9708_sin_wave.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ad9708_sin_wave.v|-work|work|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vad_da_hdmi_top
+R1
+!i10b 1
+!s100 MkN6NDfX[b=KQRmeDCVn23
+I`fH;SliGU^RWC_I6MMUGk0
+R2
+R0
+w1730020930
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ad_da_hdmi_top.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ad_da_hdmi_top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ad_da_hdmi_top.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ad_da_hdmi_top.v|-work|work|
+!i113 0
+R5
+R6
+vgrid_display
+R1
+!i10b 1
+!s100 FAKjT_;5nOYSJWZl3QKB:3
+ImFaOjXI6iWEfjVeORze>`0
+R2
+R0
+w1729838918
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/grid_display.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/grid_display.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/grid_display.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/grid_display.v|-work|work|
+!i113 0
+R5
+R6
+vhdmi_test
+R1
+!i10b 1
+!s100 [feGhoHgi0`mNBK8L0oiL3
+I8>]?Wb4Q`JE^lQInAZJcW3
+R2
+R0
+w1729688491
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/hdmi_test.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/hdmi_test.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/hdmi_test.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/hdmi_test.v|-work|work|
+!i113 0
+R5
+R6
+viic_dri
+R1
+!i10b 1
+!s100 =W?z_J?8@z>X:C?G;5AhE1
+IikaJe5g`c:`n0kka<2SzN2
+R2
+R0
+Z7 w1676639665
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/iic_dri.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/iic_dri.v
+L0 23
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/iic_dri.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/iic_dri.v|-work|work|
+!i113 0
+R5
+R6
+vipml_rom_v1_5_rom_sawtooth_wave
+Z8 !s110 1730039880
+!i10b 1
+!s100 ?R;zXU_9I?_9UocUQo99_2
+IW^^9[8aAXU8JgY[N6gLKL0
+R2
+R0
+Z9 w1704274670
+8D:/01_Learning_projects/PDS_projects/SINGAL/AD_DA_50H/AD9708_sawtooth_wave/ipcore/rom_sawtooth_wave/rtl/ipml_rom_v1_5_rom_sawtooth_wave.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/AD_DA_50H/AD9708_sawtooth_wave/ipcore/rom_sawtooth_wave/rtl/ipml_rom_v1_5_rom_sawtooth_wave.v
+Z10 L0 20
+R3
+r1
+!s85 0
+31
+Z11 !s108 1730039880.000000
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/AD_DA_50H/AD9708_sawtooth_wave/ipcore/rom_sawtooth_wave/rtl/ipml_rom_v1_5_rom_sawtooth_wave.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/AD_DA_50H/AD9708_sawtooth_wave/ipcore/rom_sawtooth_wave/rtl/ipml_rom_v1_5_rom_sawtooth_wave.v|-work|work|
+!i113 0
+R5
+R6
+vipml_rom_v1_5_rom_sin_wave
+R8
+!i10b 1
+!s100 i]:L0_]>I]Hffkh=VRU7k2
+I>h?TlBgf5MzSV6lZkAW953
+R2
+R0
+Z12 w1703143499
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/rom_sin_wave/rtl/ipml_rom_v1_5_rom_sin_wave.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/rom_sin_wave/rtl/ipml_rom_v1_5_rom_sin_wave.v
+R10
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/rom_sin_wave/rtl/ipml_rom_v1_5_rom_sin_wave.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/rom_sin_wave/rtl/ipml_rom_v1_5_rom_sin_wave.v|-work|work|
+!i113 0
+R5
+R6
+vipml_sdpram_v1_6_ram1024x8
+R8
+!i10b 1
+!s100 L=ROBoVl0BG6Fn1;M>aA73
+IAX>CmZA[9^T@0[b83_KHd3
+R2
+R0
+Z13 w1703073210
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/ram1024x8/rtl/ipml_sdpram_v1_6_ram1024x8.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/ram1024x8/rtl/ipml_sdpram_v1_6_ram1024x8.v
+R10
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/ram1024x8/rtl/ipml_sdpram_v1_6_ram1024x8.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/ram1024x8/rtl/ipml_sdpram_v1_6_ram1024x8.v|-work|work|
+!i113 0
+R5
+R6
+vipml_spram_v1_5_rom_sawtooth_wave
+R8
+!i10b 1
+!s100 ]l_HVD0WR2J]I>Eahmm^72
+I14_92gX2=ZTV]2>ekk]cS3
+R2
+R0
+R9
+8D:/01_Learning_projects/PDS_projects/SINGAL/AD_DA_50H/AD9708_sawtooth_wave/ipcore/rom_sawtooth_wave/rtl/ipml_spram_v1_5_rom_sawtooth_wave.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/AD_DA_50H/AD9708_sawtooth_wave/ipcore/rom_sawtooth_wave/rtl/ipml_spram_v1_5_rom_sawtooth_wave.v
+FD:\01_Learning_projects\PDS_projects\SINGAL\AD_DA_50H\AD9708_sawtooth_wave\ipcore\rom_sawtooth_wave\rtl\rom_sawtooth_wave_init_param.v
+Z14 L0 19
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:\01_Learning_projects\PDS_projects\SINGAL\AD_DA_50H\AD9708_sawtooth_wave\ipcore\rom_sawtooth_wave\rtl\rom_sawtooth_wave_init_param.v|D:/01_Learning_projects/PDS_projects/SINGAL/AD_DA_50H/AD9708_sawtooth_wave/ipcore/rom_sawtooth_wave/rtl/ipml_spram_v1_5_rom_sawtooth_wave.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/AD_DA_50H/AD9708_sawtooth_wave/ipcore/rom_sawtooth_wave/rtl/ipml_spram_v1_5_rom_sawtooth_wave.v|-work|work|
+!i113 0
+R5
+R6
+vipml_spram_v1_5_rom_sin_wave
+R8
+!i10b 1
+!s100 iAM:f<zjF8[O=z6DznaSo2
+IGYlIdk<g[@@7<A60ZH;DC3
+R2
+R0
+R12
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/rom_sin_wave/rtl/ipml_spram_v1_5_rom_sin_wave.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/rom_sin_wave/rtl/ipml_spram_v1_5_rom_sin_wave.v
+FD:\01_Learning_projects\PDS_projects\SINGAL\HDMI\ipcore\rom_sin_wave\rtl\rom_sin_wave_init_param.v
+R14
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:\01_Learning_projects\PDS_projects\SINGAL\HDMI\ipcore\rom_sin_wave\rtl\rom_sin_wave_init_param.v|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/rom_sin_wave/rtl/ipml_spram_v1_5_rom_sin_wave.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/rom_sin_wave/rtl/ipml_spram_v1_5_rom_sin_wave.v|-work|work|
+!i113 0
+R5
+R6
+vKey_Debounce
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 dc`D:7HEL6S@zOdd^9Ra_1
+I8T[XiiOzG7:3I]e50lV9k2
+R0
+w1728875486
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/Key_Debounce.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/Key_Debounce.v
+L0 1
+R3
+R11
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/Key_Debounce.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/Key_Debounce.v|-work|work|
+!i113 0
+R5
+R6
+n@key_@debounce
+vKey_Debounce_fix
+R8
+!i10b 1
+!s100 Do=X4L:iiKKIW_f3>B>_d3
+ISSInPWJ1>X333FmOFnB7Z0
+R2
+R0
+w1730037988
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/Key_Debounce_fix.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/Key_Debounce_fix.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/Key_Debounce_fix.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/Key_Debounce_fix.v|-work|work|
+!i113 0
+R5
+R6
+n@key_@debounce_fix
+vms7200_ctl
+R1
+!i10b 1
+!s100 iKo1Z0cH:JJ?U>SS=@1Qn2
+IHWF44_bVe=Mn7=o_cKn552
+R2
+R0
+Z15 w1676639664
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ms7200_ctl.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ms7200_ctl.v
+Z16 L0 22
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ms7200_ctl.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ms7200_ctl.v|-work|work|
+!i113 0
+R5
+R6
+vms7210_ctl
+R1
+!i10b 1
+!s100 3i5eYm:V@LE2=JU1[>K:V0
+IAP2RC[gHeMc3n9R6SA32m1
+R2
+R0
+R15
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ms7210_ctl.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ms7210_ctl.v
+R16
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ms7210_ctl.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ms7210_ctl.v|-work|work|
+!i113 0
+R5
+R6
+vms72xx_ctl
+R1
+!i10b 1
+!s100 VaoO?Dfmz0Znod8@VXMSf1
+I;_2OKKkzmHEh@eRb7BmTm2
+R2
+R0
+R15
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ms72xx_ctl.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ms72xx_ctl.v
+R16
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ms72xx_ctl.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/ms72xx_ctl.v|-work|work|
+!i113 0
+R5
+R6
+vpattern_vg
+R1
+!i10b 1
+!s100 =gYZjk<RU`>kRTmAghKGD3
+I[L=K8T2]>E9=Ac60Ao4YK2
+R2
+R0
+w1729776524
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/pattern_vg.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/pattern_vg.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/pattern_vg.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/pattern_vg.v|-work|work|
+!i113 0
+R5
+R6
+vpll
+R8
+!i10b 1
+!s100 6kZ4nL;nm6a385Kb]6?@m0
+IKj_KO_5kYhI1I1IHWm2UN2
+R2
+R0
+w1703070936
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/pll/pll.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/pll/pll.v
+R10
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/pll/pll.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/pll/pll.v|-work|work|
+!i113 0
+R5
+R6
+vpll_adda
+R8
+!i10b 1
+!s100 ^En`>Y9LdLUf8IO4heW991
+IALn;CnJA`ac_gcJj]g:VA1
+R2
+R0
+w1703071822
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/pll_adda/pll_adda.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/pll_adda/pll_adda.v
+R10
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/pll_adda/pll_adda.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/pll_adda/pll_adda.v|-work|work|
+!i113 0
+R5
+R6
+vpll_clock_125m
+R8
+!i10b 1
+!s100 H4Hg44BS[MT<FTC>@C3_D0
+IEB<J^BKD<6LFTjHD6<2ac3
+R2
+R0
+w1702955639
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/pll_clock_125m/pll_clock_125m.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/pll_clock_125m/pll_clock_125m.v
+R10
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/pll_clock_125m/pll_clock_125m.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/pll_clock_125m/pll_clock_125m.v|-work|work|
+!i113 0
+R5
+R6
+vram1024x8
+R8
+!i10b 1
+!s100 aEm^U<d<<B5WVZEl_o6Na1
+IlzglA;;XdSY042do@LeCc0
+R2
+R0
+R13
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/ram1024x8/ram1024x8.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/ram1024x8/ram1024x8.v
+Z17 L0 18
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/ram1024x8/ram1024x8.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/ram1024x8/ram1024x8.v|-work|work|
+!i113 0
+R5
+R6
+vrom_sawtooth_wave
+R8
+!i10b 1
+!s100 _F19zL_C;aND`SM]7A^`N2
+IMHJ7fjh[n`0=fLFZ4cO0_3
+R2
+R0
+R9
+8D:/01_Learning_projects/PDS_projects/SINGAL/AD_DA_50H/AD9708_sawtooth_wave/ipcore/rom_sawtooth_wave/rom_sawtooth_wave.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/AD_DA_50H/AD9708_sawtooth_wave/ipcore/rom_sawtooth_wave/rom_sawtooth_wave.v
+R17
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/AD_DA_50H/AD9708_sawtooth_wave/ipcore/rom_sawtooth_wave/rom_sawtooth_wave.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/AD_DA_50H/AD9708_sawtooth_wave/ipcore/rom_sawtooth_wave/rom_sawtooth_wave.v|-work|work|
+!i113 0
+R5
+R6
+vrom_sin_wave
+R8
+!i10b 1
+!s100 k91aRndb?T5AHSVRPSC^f2
+IdL2_78?369[9e;I<eInA^1
+R2
+R0
+R12
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/rom_sin_wave/rom_sin_wave.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/rom_sin_wave/rom_sin_wave.v
+R17
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/rom_sin_wave/rom_sin_wave.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/ipcore/rom_sin_wave/rom_sin_wave.v|-work|work|
+!i113 0
+R5
+R6
+vsync_vg
+R1
+!i10b 1
+!s100 Hkdb0o5hO]Slk1Ko7X]9h3
+IZ`nE;nO2gE8dZBcF:`z?[0
+R2
+R0
+R7
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/sync_vg.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/sync_vg.v
+L0 34
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/sync_vg.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/sync_vg.v|-work|work|
+!i113 0
+R5
+R6
+vtb_ctrl_test
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 aZX6eRGcDQH^0Ydh@lAAY1
+I<HoT6:MGj1h:Neb<[RMaf3
+R0
+w1730039851
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/tb_key_debounce.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/tb_key_debounce.v
+L0 2
+R3
+R11
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/tb_key_debounce.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/tb_key_debounce.v|-work|work|
+!i113 0
+R5
+R6
+vtb_hdmi
+R8
+!i10b 1
+!s100 Z;3lgo;DMRE7[EI@f;jKT1
+Ign7c8lo=:78`NgGl>D1^a2
+R2
+R0
+w1729687026
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/tb_hdmi.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/tb_hdmi.v
+L0 3
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/tb_hdmi.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/tb_hdmi.v|-work|work|
+!i113 0
+R5
+R6
+vtiming_gen_xy
+R8
+!i10b 1
+!s100 jJKXS>XX2agmEV127Of2A2
+I;^AekLXoHI`:PKOQR6Y`M2
+R2
+R0
+w1703068429
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/timing_gen_xy.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/timing_gen_xy.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/timing_gen_xy.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/timing_gen_xy.v|-work|work|
+!i113 0
+R5
+R6
+vwav_display
+R8
+!i10b 1
+!s100 nDcQgST2JhV2n>NZG:3TW3
+IaC]a5aIOnGkAO]Ajn6?dP3
+R2
+R0
+w1729851404
+8D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/wav_display.v
+FD:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/wav_display.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/wav_display.v|
+!s90 -reportprogress|300|D:/01_Learning_projects/PDS_projects/SINGAL/HDMI/source/wav_display.v|-work|work|
+!i113 0
+R5
+R6

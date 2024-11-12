@@ -1,0 +1,232 @@
+[Info] [2024-1-8 17:04:08] /***************************Start jtagserver***************************/
+[Info] [2024-1-8 17:04:08] Path: D:/software/pango2022.1/PDS_2022.1/bin
+[Info] [2024-1-8 17:04:08] Version: 99559
+[Debug] [2024-1-8 17:04:09] Add a new user_thread, socket descriptor is 1176 user_thread id is 0000000000000E74
+[Debug] [2024-1-8 17:04:09] After adding, map size is : 1
+[Debug] [2024-1-8 17:04:09] Add a new user_thread, socket descriptor is 1180 user_thread id is 0000000000000E74
+[Debug] [2024-1-8 17:04:09] After adding, map size is : 2
+[Debug] [2024-1-8 17:04:09] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-1-8 17:04:09] IP address of connecting client is : ::ffff:127.0.0.1IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-1-8 17:04:09] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:04:09] _total_bytes_size : 146
+[Debug] [2024-1-8 17:04:09] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:04:09] _total_bytes_size : 96
+[Debug] [2024-1-8 17:04:09] cmd id :40011cmd name : get_cable_paras
+[Debug] [2024-1-8 17:04:10] cmd operation get_cable_paras releases locker
+[Debug] [2024-1-8 17:04:10] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:04:10] _total_bytes_size : 101
+[Debug] [2024-1-8 17:04:10] cmd id :20001cmd name : Open config cable
+[Debug] [2024-1-8 17:04:10] the idcode from the scanning is: 0x10521899
+[Debug] [2024-1-8 17:04:10] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:04:10] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:04:10] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:04:10] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:04:10] cmd operation Open config cable releases locker
+[Info] [2024-1-8 17:05:04] /***************************Start jtagserver***************************/
+[Info] [2024-1-8 17:05:04] Path: D:/software/pango2022.1/PDS_2022.1/bin
+[Info] [2024-1-8 17:05:04] Version: 99559
+[Debug] [2024-1-8 17:05:04] Add a new user_thread, socket descriptor is 1272 user_thread id is 0000000000000998
+[Debug] [2024-1-8 17:05:04] After adding, map size is : 1
+[Debug] [2024-1-8 17:05:04] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-1-8 17:05:04] Add a new user_thread, socket descriptor is 1244 user_thread id is 0000000000000998
+[Debug] [2024-1-8 17:05:04] After adding, map size is : 2
+[Debug] [2024-1-8 17:05:04] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-1-8 17:05:04] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:05:04] _total_bytes_size : 146
+[Debug] [2024-1-8 17:05:05] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:05:05] _total_bytes_size : 96
+[Debug] [2024-1-8 17:05:05] cmd id :40011cmd name : get_cable_paras
+[Debug] [2024-1-8 17:05:05] cmd operation get_cable_paras releases locker
+[Debug] [2024-1-8 17:05:05] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:05:05] _total_bytes_size : 101
+[Debug] [2024-1-8 17:05:05] cmd id :20001cmd name : Open config cable
+[Debug] [2024-1-8 17:05:05] the idcode from the scanning is: 0x10521899
+[Debug] [2024-1-8 17:05:05] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:05:05] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:05:05] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:05:05] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:05:06] cmd operation Open config cable releases locker
+[Debug] [2024-1-8 17:05:10] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:05:10] _total_bytes_size : 65
+[Debug] [2024-1-8 17:05:10] cmd id :4e21cmd name : Open config cable
+[Debug] [2024-1-8 17:05:10] the idcode from the scanning is: 0x10521899
+[Debug] [2024-1-8 17:05:10] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:05:10] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:05:10] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:05:10] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:05:10] cmd operation Open config cable releases locker
+[Info] [2024-1-8 17:05:34] /***************************Start jtagserver***************************/
+[Info] [2024-1-8 17:05:34] Path: D:/software/pango2022.1/PDS_2022.1/bin
+[Info] [2024-1-8 17:05:34] Version: 99559
+[Debug] [2024-1-8 17:05:34] Add a new user_thread, socket descriptor is 1204 user_thread id is 00000000000030F0
+[Debug] [2024-1-8 17:05:34] After adding, map size is : 1
+[Debug] [2024-1-8 17:05:34] Add a new user_thread, socket descriptor is 1172 user_thread id is 00000000000030F0
+[Debug] [2024-1-8 17:05:34] After adding, map size is : 2
+[Debug] [2024-1-8 17:05:34] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-1-8 17:05:34] IP address of connecting client is : ::ffff:127.0.0.1IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-1-8 17:05:34] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:05:34] _total_bytes_size : 146
+[Debug] [2024-1-8 17:05:34] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:05:34] _total_bytes_size : 96
+[Debug] [2024-1-8 17:05:34] cmd id :40011cmd name : get_cable_paras
+[Debug] [2024-1-8 17:05:35] cmd operation get_cable_paras releases locker
+[Debug] [2024-1-8 17:05:35] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:05:35] _total_bytes_size : 101
+[Debug] [2024-1-8 17:05:35] cmd id :20001cmd name : Open config cable
+[Debug] [2024-1-8 17:05:35] the idcode from the scanning is: 0x10521899
+[Debug] [2024-1-8 17:05:35] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:05:35] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:05:35] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:05:35] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:05:35] cmd operation Open config cable releases locker
+[Info] [2024-1-8 17:06:41] /***************************Start jtagserver***************************/
+[Info] [2024-1-8 17:06:41] Path: D:/software/pango2022.1/PDS_2022.1/bin
+[Info] [2024-1-8 17:06:41] Version: 99559
+[Debug] [2024-1-8 17:06:42] Add a new user_thread, socket descriptor is 1160 user_thread id is 00000000000046A4
+[Debug] [2024-1-8 17:06:42] After adding, map size is : 1
+[Debug] [2024-1-8 17:06:42] Add a new user_thread, socket descriptor is 1212 user_thread id is 00000000000046A4
+[Debug] [2024-1-8 17:06:42] After adding, map size is : 2
+[Debug] [2024-1-8 17:06:42] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-1-8 17:06:42] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-1-8 17:06:42] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:06:42] _total_bytes_size : 146
+[Debug] [2024-1-8 17:06:42] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:06:42] _total_bytes_size : 96
+[Debug] [2024-1-8 17:06:42] cmd id :40011cmd name : get_cable_paras
+[Debug] [2024-1-8 17:06:43] cmd operation get_cable_paras releases locker
+[Debug] [2024-1-8 17:06:43] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:06:43] _total_bytes_size : 101
+[Debug] [2024-1-8 17:06:43] cmd id :20001cmd name : Open config cable
+[Debug] [2024-1-8 17:06:43] the idcode from the scanning is: 0x10521899
+[Debug] [2024-1-8 17:06:43] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:06:43] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:06:43] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:06:43] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:06:43] cmd operation Open config cable releases locker
+[Info] [2024-1-8 17:07:35] /***************************Start jtagserver***************************/
+[Info] [2024-1-8 17:07:35] Path: D:/software/pango2022.1/PDS_2022.1/bin
+[Info] [2024-1-8 17:07:35] Version: 99559
+[Debug] [2024-1-8 17:07:35] Add a new user_thread, socket descriptor is 1212 user_thread id is 0000000000001140
+[Debug] [2024-1-8 17:07:35] After adding, map size is : 1
+[Debug] [2024-1-8 17:07:35] Add a new user_thread, socket descriptor is 1220 user_thread id is 0000000000001140
+[Debug] [2024-1-8 17:07:35] After adding, map size is : 2
+[Debug] [2024-1-8 17:07:35] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-1-8 17:07:35] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-1-8 17:07:35] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:07:35] _total_bytes_size : 146
+[Debug] [2024-1-8 17:07:35] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:07:35] _total_bytes_size : 96
+[Debug] [2024-1-8 17:07:35] cmd id :40011cmd name : get_cable_paras
+[Debug] [2024-1-8 17:07:36] cmd operation get_cable_paras releases locker
+[Debug] [2024-1-8 17:07:36] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:07:36] _total_bytes_size : 101
+[Debug] [2024-1-8 17:07:36] cmd id :20001cmd name : Open config cable
+[Debug] [2024-1-8 17:07:36] the idcode from the scanning is: 0x10521899
+[Debug] [2024-1-8 17:07:36] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:07:36] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:07:36] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:07:36] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:07:37] cmd operation Open config cable releases locker
+[Info] [2024-1-8 17:17:37] /***************************Start jtagserver***************************/
+[Info] [2024-1-8 17:17:37] Path: D:/software/pango2022.1/PDS_2022.1/bin
+[Info] [2024-1-8 17:17:37] Version: 99559
+[Debug] [2024-1-8 17:17:37] Add a new user_thread, socket descriptor is 1240 user_thread id is 0000000000000F28
+[Debug] [2024-1-8 17:17:37] After adding, map size is : 1
+[Debug] [2024-1-8 17:17:37] Add a new user_thread, socket descriptor is 1248 user_thread id is 0000000000000F28
+[Debug] [2024-1-8 17:17:37] After adding, map size is : 2
+[Debug] [2024-1-8 17:17:37] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-1-8 17:17:37] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-1-8 17:17:37] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:17:37] _total_bytes_size : 146
+[Debug] [2024-1-8 17:17:37] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:17:37] _total_bytes_size : 96
+[Debug] [2024-1-8 17:17:37] cmd id :40011cmd name : get_cable_paras
+[Debug] [2024-1-8 17:17:38] cmd operation get_cable_paras releases locker
+[Debug] [2024-1-8 17:17:38] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:17:38] _total_bytes_size : 101
+[Debug] [2024-1-8 17:17:38] cmd id :20001cmd name : Open config cable
+[Debug] [2024-1-8 17:17:38] the idcode from the scanning is: 0x10521899
+[Debug] [2024-1-8 17:17:38] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:17:38] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:17:38] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:17:38] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:17:38] cmd operation Open config cable releases locker
+[Info] [2024-1-8 17:17:46] /***************************Start jtagserver***************************/
+[Info] [2024-1-8 17:17:46] Path: D:/software/pango2022.1/PDS_2022.1/bin
+[Info] [2024-1-8 17:17:46] Version: 99559
+[Debug] [2024-1-8 17:17:47] Add a new user_thread, socket descriptor is 668 user_thread id is 00000000000024BC
+[Debug] [2024-1-8 17:17:47] After adding, map size is : 1
+[Debug] [2024-1-8 17:17:47] Add a new user_thread, socket descriptor is 776 user_thread id is 00000000000024BC
+[Debug] [2024-1-8 17:17:47] After adding, map size is : 2
+[Debug] [2024-1-8 17:17:47] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-1-8 17:17:47] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:17:47] _total_bytes_size : 146
+[Debug] [2024-1-8 17:17:47] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-1-8 17:17:47] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:17:47] _total_bytes_size : 96
+[Debug] [2024-1-8 17:17:47] cmd id :40011cmd name : get_cable_paras
+[Debug] [2024-1-8 17:17:47] cmd operation get_cable_paras releases locker
+[Debug] [2024-1-8 17:17:47] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:17:47] _total_bytes_size : 101
+[Debug] [2024-1-8 17:17:47] cmd id :20001cmd name : Open config cable
+[Debug] [2024-1-8 17:17:48] the idcode from the scanning is: 0x10521899
+[Debug] [2024-1-8 17:17:48] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:17:48] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:17:48] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:17:48] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:17:48] cmd operation Open config cable releases locker
+[Info] [2024-1-8 17:19:14] /***************************Start jtagserver***************************/
+[Info] [2024-1-8 17:19:14] Path: D:/software/pango2022.1/PDS_2022.1/bin
+[Info] [2024-1-8 17:19:14] Version: 99559
+[Debug] [2024-1-8 17:19:14] Add a new user_thread, socket descriptor is 1004 user_thread id is 0000000000002E74
+[Debug] [2024-1-8 17:19:14] After adding, map size is : 1
+[Debug] [2024-1-8 17:19:14] Add a new user_thread, socket descriptor is 972 user_thread id is 0000000000002E74
+[Debug] [2024-1-8 17:19:14] After adding, map size is : 2
+[Debug] [2024-1-8 17:19:14] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-1-8 17:19:14] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:19:14] Remove the header data from the client, index : 0IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-1-8 17:19:14] _total_bytes_size : 146
+[Debug] [2024-1-8 17:19:14] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:19:14] _total_bytes_size : 96
+[Debug] [2024-1-8 17:19:14] cmd id :40011cmd name : get_cable_paras
+[Debug] [2024-1-8 17:19:15] cmd operation get_cable_paras releases locker
+[Debug] [2024-1-8 17:19:15] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:19:15] _total_bytes_size : 101
+[Debug] [2024-1-8 17:19:15] cmd id :20001cmd name : Open config cable
+[Debug] [2024-1-8 17:19:15] the idcode from the scanning is: 0x10521899
+[Debug] [2024-1-8 17:19:15] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:19:15] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:19:15] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:19:15] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:19:15] cmd operation Open config cable releases locker
+[Debug] [2024-1-8 17:19:18] Remove the header data from the client, index : 0
+[Debug] [2024-1-8 17:19:18] _total_bytes_size : 276
+[Debug] [2024-1-8 17:19:18] cmd id :4e22cmd name : Program
+[Debug] [2024-1-8 17:19:18] the idcode from the scanning is: 0x10521899
+[Debug] [2024-1-8 17:19:18] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:19:18] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:19:18] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:19:18] the idcode from the scanning is: 0x0
+[Debug] [2024-1-8 17:19:18] begin to read back config registerregAddr is 4
+[Debug] [2024-1-8 17:19:18] progress bar is 6
+[Debug] [2024-1-8 17:19:18] progress bar is 10
+[Debug] [2024-1-8 17:19:18] progress bar is 15
+[Debug] [2024-1-8 17:19:19] progress bar is 20
+[Debug] [2024-1-8 17:19:19] progress bar is 25
+[Debug] [2024-1-8 17:19:19] progress bar is 30
+[Debug] [2024-1-8 17:19:19] progress bar is 35
+[Debug] [2024-1-8 17:19:19] progress bar is 40
+[Debug] [2024-1-8 17:19:19] progress bar is 45
+[Debug] [2024-1-8 17:19:19] progress bar is 50
+[Debug] [2024-1-8 17:19:19] progress bar is 55
+[Debug] [2024-1-8 17:19:19] progress bar is 60
+[Debug] [2024-1-8 17:19:19] progress bar is 65
+[Debug] [2024-1-8 17:19:19] progress bar is 70
+[Debug] [2024-1-8 17:19:20] progress bar is 75
+[Debug] [2024-1-8 17:19:20] progress bar is 80
+[Debug] [2024-1-8 17:19:20] progress bar is 85
+[Debug] [2024-1-8 17:19:20] progress bar is 90
+[Debug] [2024-1-8 17:19:20] progress bar is 95
+[Debug] [2024-1-8 17:19:20] progress bar is 100
+[Debug] [2024-1-8 17:19:20] the value in the status register is :2096288
+[Debug] [2024-1-8 17:19:20] cmd operation Program releases locker

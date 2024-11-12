@@ -1,0 +1,107 @@
+[Info] [2024-1-8 17:20:13] /***************************Start Configuration***************************/
+[Info] [2024-1-8 17:20:13] Path: D:/software/pango2022.1/PDS_2022.1/bin
+[Info] [2024-1-8 17:20:13] Version: 99559
+[Info] [2024-1-8 17:20:14] Current Path: D:/admin/desktop/AD_DA_50H/AD9708_triangular_wave
+[Info] [2024-1-8 17:20:14] PDS Dir Path: D:/admin/desktop/AD_DA_50H/AD9708_triangular_wave
+[Info] [2024-1-8 17:20:15] /***************************End Configration***************************/
+[Info] [2024-1-8 17:21:06] /***************************Start Configuration***************************/
+[Info] [2024-1-8 17:21:06] Path: D:/software/pango2022.1/PDS_2022.1/bin
+[Info] [2024-1-8 17:21:06] Version: 99559
+[Info] [2024-1-8 17:21:07] Current Path: D:/admin/desktop/AD_DA_50H/AD9708_triangular_wave
+[Info] [2024-1-8 17:21:07] PDS Dir Path: D:/admin/desktop/AD_DA_50H/AD9708_triangular_wave
+[Info] [2024-1-8 17:21:13] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-1-8 17:21:13] Client Local host name:DESKTOP-NTRMANG
+[Debug] [2024-1-8 17:21:13] Client Local Address:192.168.3.80
+[Debug] [2024-1-8 17:21:13] Server Address:127.0.0.1, Port:65420
+[Info] [2024-1-8 17:21:13] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-1-8 17:21:13] Finish.
+[Info] [2024-1-8 17:21:13] Connect server succeeded
+[Debug] [2024-1-8 17:21:13] Send RPC:1
+[Debug] [2024-1-8 17:21:13] Send cmd [check version information:40005] OK
+[Debug] [2024-1-8 17:21:13] Send RPC:2
+[Debug] [2024-1-8 17:21:13] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-1-8 17:21:13] Begin to send initialize chain cmd...
+[Debug] [2024-1-8 17:21:13] Send RPC:3
+[Debug] [2024-1-8 17:21:13] Send cmd [Open config cable:20001] OK
+[Debug] [2024-1-8 17:21:13] End to send initialize chain cmd.
+[Debug] [2024-1-8 17:21:13] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2024-1-8 17:21:14] COMMAND[get_cable_paras] execute successfully, takes 0.7 secs.
+[Debug] [2024-1-8 17:21:14] begin the exec of open cable cmd...
+[Debug] [2024-1-8 17:21:14] Begin to deal with chain from server...
+[Debug] [2024-1-8 17:21:14] Begin to set user chain...
+[Debug] [2024-1-8 17:21:14] End to set user chain.
+[Debug] [2024-1-8 17:21:14] Begin to update graphic item and tree item ...
+[Debug] [2024-1-8 17:21:14] End to update graphic item and tree item ...
+[Info] [2024-1-8 17:21:16] set OpenLastPath: D:/admin/desktop/AD_DA_50H/AD9708_triangular_wave/generate_bitstream/top.sbit
+[Debug] [2024-1-8 17:21:16] begin to get device info from CFG file...
+[Debug] [2024-1-8 17:21:16] end to get device info from CFG file...
+[Debug] [2024-1-8 17:21:16] Begin to update graphic item and tree item ...
+[Debug] [2024-1-8 17:21:16] End to update graphic item and tree item ...
+[Debug] [2024-1-8 17:21:17] End to deal wiht chain from server.
+[Debug] [2024-1-8 17:21:17] end the exec of open cable cmd.
+[Debug] [2024-1-8 17:21:17] COMMAND[Open config cable] execute successfully, takes 4.0 secs.
+[Info] [2024-1-8 17:21:19] /***************************End Configration***************************/
+[Info] [2024-1-8 17:22:12] /***************************Start Configuration***************************/
+[Info] [2024-1-8 17:22:12] Path: D:/software/pango2022.1/PDS_2022.1/bin
+[Info] [2024-1-8 17:22:12] Version: 99559
+[Info] [2024-1-8 17:22:13] Current Path: D:/admin/desktop/AD_DA_50H/AD9708_triangular_wave
+[Info] [2024-1-8 17:22:13] PDS Dir Path: D:/admin/desktop/AD_DA_50H/AD9708_triangular_wave
+[Info] [2024-1-8 17:22:17] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-1-8 17:22:17] Client Local host name:DESKTOP-NTRMANG
+[Debug] [2024-1-8 17:22:17] Client Local Address:192.168.3.80
+[Debug] [2024-1-8 17:22:17] Server Address:127.0.0.1, Port:65420
+[Info] [2024-1-8 17:22:18] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-1-8 17:22:18] Finish.
+[Info] [2024-1-8 17:22:18] Connect server succeeded
+[Debug] [2024-1-8 17:22:18] Send RPC:1
+[Debug] [2024-1-8 17:22:18] Send cmd [check version information:40005] OK
+[Debug] [2024-1-8 17:22:18] Send RPC:2
+[Debug] [2024-1-8 17:22:18] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-1-8 17:22:18] Begin to send initialize chain cmd...
+[Debug] [2024-1-8 17:22:18] Send RPC:3
+[Debug] [2024-1-8 17:22:18] Send cmd [Open config cable:20001] OK
+[Debug] [2024-1-8 17:22:18] End to send initialize chain cmd.
+[Debug] [2024-1-8 17:22:18] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2024-1-8 17:22:18] COMMAND[get_cable_paras] execute successfully, takes 0.7 secs.
+[Debug] [2024-1-8 17:22:19] begin the exec of open cable cmd...
+[Debug] [2024-1-8 17:22:19] Begin to deal with chain from server...
+[Debug] [2024-1-8 17:22:19] Begin to set user chain...
+[Debug] [2024-1-8 17:22:19] End to set user chain.
+[Debug] [2024-1-8 17:22:19] Begin to update graphic item and tree item ...
+[Debug] [2024-1-8 17:22:19] End to update graphic item and tree item ...
+[Info] [2024-1-8 17:22:20] set OpenLastPath: D:/admin/desktop/AD_DA_50H/AD9708_triangular_wave/generate_bitstream/top.sbit
+[Debug] [2024-1-8 17:22:20] begin to get device info from CFG file...
+[Debug] [2024-1-8 17:22:20] end to get device info from CFG file...
+[Debug] [2024-1-8 17:22:20] Begin to update graphic item and tree item ...
+[Debug] [2024-1-8 17:22:20] End to update graphic item and tree item ...
+[Debug] [2024-1-8 17:22:20] End to deal wiht chain from server.
+[Debug] [2024-1-8 17:22:20] end the exec of open cable cmd.
+[Debug] [2024-1-8 17:22:20] COMMAND[Open config cable] execute successfully, takes 3.0 secs.
+[Debug] [2024-1-8 17:22:22] Begin to send programming cmd...
+[Debug] [2024-1-8 17:22:22] Send RPC:4
+[Debug] [2024-1-8 17:22:22] Begin to send program data.
+[Debug] [2024-1-8 17:22:22] End to send program data.
+[Debug] [2024-1-8 17:22:22] Send cmd [Program:20002] OK
+[Debug] [2024-1-8 17:22:22] The value of Progress is 6
+[Debug] [2024-1-8 17:22:22] The value of Progress is 10
+[Debug] [2024-1-8 17:22:22] The value of Progress is 15
+[Debug] [2024-1-8 17:22:22] The value of Progress is 20
+[Debug] [2024-1-8 17:22:22] The value of Progress is 25
+[Debug] [2024-1-8 17:22:22] The value of Progress is 30
+[Debug] [2024-1-8 17:22:23] The value of Progress is 35
+[Debug] [2024-1-8 17:22:23] The value of Progress is 40
+[Debug] [2024-1-8 17:22:23] The value of Progress is 45
+[Debug] [2024-1-8 17:22:23] The value of Progress is 50
+[Debug] [2024-1-8 17:22:23] The value of Progress is 55
+[Debug] [2024-1-8 17:22:23] The value of Progress is 60
+[Debug] [2024-1-8 17:22:23] The value of Progress is 65
+[Debug] [2024-1-8 17:22:23] The value of Progress is 70
+[Debug] [2024-1-8 17:22:23] The value of Progress is 75
+[Debug] [2024-1-8 17:22:23] The value of Progress is 80
+[Debug] [2024-1-8 17:22:23] The value of Progress is 85
+[Debug] [2024-1-8 17:22:24] The value of Progress is 90
+[Debug] [2024-1-8 17:22:24] The value of Progress is 95
+[Debug] [2024-1-8 17:22:24] The value of Progress is 100
+[Debug] [2024-1-8 17:22:24] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2024-1-8 17:22:24] End to send programming cmd.
+[Info] [2024-1-8 17:24:22] /***************************End Configration***************************/

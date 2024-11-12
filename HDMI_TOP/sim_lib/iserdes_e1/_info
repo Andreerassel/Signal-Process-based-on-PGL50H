@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/01_Learning_projects/PDS_projects/SINGAL/AD_DA_50H/da_ad_HDMI/sim_lib
+v0nCoXRNktZfY6kBLDbOKtw==
+Z0 !s10a 1657559192
+Z1 !s110 1729687168
+!i10b 0
+!s100 B8SRl7n?_Kd1MQn^NE^BT3
+IJjO^@bZZ4972RV^;K1g@53
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!i8a 1469327360
+Z3 dD:/Apps/1_LearningApps/PDS_2022.1/arch/vendor/pango/verilog/simulation/modelsim10.2c
+Z4 w1729687168
+8./iserdes_e1_source_codes/int_iserdes_e1.vp
+F./iserdes_e1_source_codes/int_iserdes_e1.vp
+Z5 L0 23
+Z6 OL;L;10.5;63
+r1
+!s85 0
+31
+Z7 !s108 1729687168.000000
+Z8 !s107 ./iserdes_e1_source_codes/int_iserdes_e1.vp|./iserdes_e1_source_codes/int_iserdes_e1_7km.vp|
+Z9 !s90 -incr|-f|./filelist_iserdes_e1_gtp.f|-work|iserdes_e1|
+!i113 0
+Z10 o-work iserdes_e1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+nd0a9b41
+vWG3lJLLZf59Se1SKrhHkJInjDcB+xQHu7jtgAWSzApE=
+R0
+R1
+!i10b 0
+!s100 H5I7]=DWKiiHOb?2@H=Dc1
+IKYlCbhL<j1:[1R8:87G7P0
+R2
+!i8a 984700720
+R3
+R4
+8./iserdes_e1_source_codes/int_iserdes_e1_7km.vp
+F./iserdes_e1_source_codes/int_iserdes_e1_7km.vp
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+nb4c288d
