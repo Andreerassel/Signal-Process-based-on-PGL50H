@@ -1,0 +1,194 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/pango_prj/logic_test/sim/behav
+vglitch_free
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ioT7Je<244N4]o?8^9H8;0
+Iieh4_W7_TR9B_cmRYfQ=@1
+R0
+w1730815017
+8D:/pango_prj/logic_test/source/glitch_free.v
+FD:/pango_prj/logic_test/source/glitch_free.v
+L0 3
+Z2 OL;L;10.5;63
+Z3 !s108 1730886949.000000
+!s107 D:/pango_prj/logic_test/source/glitch_free.v|
+!s90 -reportprogress|300|D:/pango_prj/logic_test/source/glitch_free.v|-work|work|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vipm_distributed_sdpram_v1_2_RAM_0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 UGebOQo1HSV=Jc[4Ng0iT2
+Ii1cH4M[7=O6DYR^P=QBUd3
+R0
+Z6 w1730127336
+8D:/pango_prj/logic_test/ipcore/RAM_0/rtl/ipm_distributed_sdpram_v1_2_RAM_0.v
+FD:/pango_prj/logic_test/ipcore/RAM_0/rtl/ipm_distributed_sdpram_v1_2_RAM_0.v
+L0 22
+R2
+R3
+!s107 D:/pango_prj/logic_test/ipcore/RAM_0/rtl/ipm_distributed_sdpram_v1_2_RAM_0.v|
+!s90 -reportprogress|300|D:/pango_prj/logic_test/ipcore/RAM_0/rtl/ipm_distributed_sdpram_v1_2_RAM_0.v|-work|work|
+!i113 0
+R4
+R5
+nipm_distributed_sdpram_v1_2_@r@a@m_0
+vKey_Debounce
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 zFM;JFU0@8Q7^U[^9Z?[M1
+IfUciRe7Rh9ST?WFKX9:IG1
+R0
+w1729506285
+8D:/pango_prj/crtl_1.08/source/Key_Debounce.v
+FD:/pango_prj/crtl_1.08/source/Key_Debounce.v
+L0 1
+R2
+R3
+!s107 D:/pango_prj/crtl_1.08/source/Key_Debounce.v|
+!s90 -reportprogress|300|D:/pango_prj/crtl_1.08/source/Key_Debounce.v|-work|work|
+!i113 0
+R4
+R5
+n@key_@debounce
+vlogic_analyzer
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 <^8dNhIWci457VjoUXQV[1
+I0K^2MOfidkU<aSTXecz0e3
+R0
+w1730886045
+8D:/pango_prj/logic_test/source/logic_analyzer.v
+FD:/pango_prj/logic_test/source/logic_analyzer.v
+L0 1
+R2
+R3
+!s107 D:/pango_prj/logic_test/source/logic_analyzer.v|
+!s90 -reportprogress|300|D:/pango_prj/logic_test/source/logic_analyzer.v|-work|work|
+!i113 0
+R4
+R5
+vPLL_4
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 6eRQLABa]SJU<ne@22F2<3
+Imeh[_GT?[URTb_c55K;>P0
+R0
+w1730126533
+8D:/pango_prj/logic_test/ipcore/PLL_4/PLL_4.v
+FD:/pango_prj/logic_test/ipcore/PLL_4/PLL_4.v
+Z7 L0 20
+R2
+R3
+!s107 D:/pango_prj/logic_test/ipcore/PLL_4/PLL_4.v|
+!s90 -reportprogress|300|D:/pango_prj/logic_test/ipcore/PLL_4/PLL_4.v|-work|work|
+!i113 0
+R4
+R5
+n@p@l@l_4
+vRAM_0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 RZWl`2]A?CBn8gHXKG><]3
+IKFRk=dk@_5nLlod`4jng[2
+R0
+R6
+8D:/pango_prj/logic_test/ipcore/RAM_0/RAM_0.v
+FD:/pango_prj/logic_test/ipcore/RAM_0/RAM_0.v
+R7
+R2
+R3
+!s107 D:/pango_prj/logic_test/ipcore/RAM_0/RAM_0.v|
+!s90 -reportprogress|300|D:/pango_prj/logic_test/ipcore/RAM_0/RAM_0.v|-work|work|
+!i113 0
+R4
+R5
+n@r@a@m_0
+vsampler
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 C`IITi?mf:E_jS:16X0Ee2
+Ik1`iV>_<V^g08L33K^>[j1
+R0
+w1730886929
+8D:/pango_prj/logic_test/source/sampler.v
+FD:/pango_prj/logic_test/source/sampler.v
+L0 1
+R2
+R3
+!s107 D:/pango_prj/logic_test/source/sampler.v|
+!s90 -reportprogress|300|D:/pango_prj/logic_test/source/sampler.v|-work|work|
+!i113 0
+R4
+R5
+vtb_pll
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 0XWfWW[aDK`SWTXh@hDGg1
+Iih@QMb6GZ0<GAF[omhjLW1
+R0
+w1730874419
+8D:/pango_prj/logic_test/source/tb_pll.v
+FD:/pango_prj/logic_test/source/tb_pll.v
+L0 2
+R2
+!s108 1730874427.000000
+!s107 D:/pango_prj/logic_test/source/tb_pll.v|
+!s90 -reportprogress|300|D:/pango_prj/logic_test/source/tb_pll.v|-work|work|
+!i113 0
+R4
+R5
+vtb_test
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 l1`^bCCI:[G9Yn?zXVIBD3
+IP`OU?9nYelh1a?GKBh94a2
+R0
+w1730874231
+8D:/pango_prj/logic_test/source/tb_test.v
+FD:/pango_prj/logic_test/source/tb_test.v
+L0 2
+R2
+!s108 1730886950.000000
+!s107 D:/pango_prj/logic_test/source/tb_test.v|
+!s90 -reportprogress|300|D:/pango_prj/logic_test/source/tb_test.v|-work|work|
+!i113 0
+R4
+R5

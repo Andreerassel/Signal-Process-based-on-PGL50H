@@ -1,0 +1,42 @@
+##### Written on 2024/11/09 16:57:06 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-6FBG484
+
+Top Module : 
+	LA_test
+
+Constraint File(s) : 
+	D:/01_Learning_projects/PDS_projects/SINGAL/logic_test/source/logic_analyzer.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 1 critical warning(s), 0 warning(s), out of 35 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+define_attribute {p:key_1} {PAP_IO_LOC} {K18}
+	C: ConstraintEditor-2002: [D:/01_Learning_projects/PDS_projects/SINGAL/logic_test/source/logic_analyzer.fdc(line number: 7)] | Port key_1 has been placed at location K18, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+Issues without commands:
+********************************************
+
+
+Unconstrained ports:
+********************************************
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+

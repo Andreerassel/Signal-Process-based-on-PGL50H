@@ -1,0 +1,18 @@
+
+Inputs and Outputs :
++-----------------------------------------------------------------------------------------------------+
+| Type       | File Name                                                                             
++-----------------------------------------------------------------------------------------------------+
+| Input      | D:/01_Learning_projects/PDS_projects/SINGAL/logic_test/synthesize/LA_test_syn.adf     
+|            | D:/01_Learning_projects/PDS_projects/SINGAL/logic_test/synthesize/LA_test_syn.fic     
+| Output     | D:/01_Learning_projects/PDS_projects/SINGAL/logic_test/device_map/LA_test_dmr.prt     
+|            | D:/01_Learning_projects/PDS_projects/SINGAL/logic_test/device_map/dmr.db              
+|            | D:/01_Learning_projects/PDS_projects/SINGAL/logic_test/device_map/LA_test.dmr         
++-----------------------------------------------------------------------------------------------------+
+
+
+Flow Command: dev_map 
+Peak memory: 229 MB
+Total CPU  time to dev_map completion : 0h:0m:1s
+Process Total CPU  time to dev_map completion : 0h:0m:1s
+Total real time to dev_map completion : 0h:0m:4s
